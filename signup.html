@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup page </title>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url(https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+        background-size: cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height: 106vh;
+        font-family: sans-serif;
+        justify-content:space-evenly;
+    }
+    .loginbox{
+        width: 350px;
+        height:440px;
+        background: rgb(253, 206, 206);
+        color: rgb(179, 48, 48);
+        top:20% ;
+        left:40%;
+        position:absolute;
+        translate: translate(-50%,-50%);
+       text-align: center;
+       padding: 70px 30px;
+       border-radius: 50px;
+
+
+
+    }
+     .avatar{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position:relative;
+            top: -50px;
+            left:calc(-150% -150px);
+
+   }
+   h1{
+       margin: 0px;
+       text-align: center;
+       font-size: 20px;
+   }
+   .loginbox p{
+       margin: 0px;
+       padding: 0px;
+       font-weight: bold;
+
+   }
+   .loginbox input{
+       width: 80%;
+       margin-bottom: 20px;
+
+   }
+
+   .loginbox input[type="text"], input[type="password"]{
+       border:none;
+       border-bottom:1px solid #fff;
+       background:transparent;
+       outline:none;
+       height:40px;
+       font-size:16px;
+   }
+   .loginbox input[type="submit"]{
+       border : none;
+       outline: none;
+       height: 25px;
+       background: #fb2525;
+       color: #fff;
+       font-size: 18px;
+       border-radius: 20px;
+   }
+   .loginbox input[type="submit"]:hover{
+       cursor: pointer;
+       background: #ffc107;
+       color:#000;
+
+   }
+   .loginbox a {
+       text-decoration: none;
+       font-size: 12px;
+       line-height: 20px;
+       color:darkgrey;
+   }
+   .loginbox a:hover {
+       color: #ffc107;
+
+   }
+
+</style>
+</head>
+<body>
+  <div class="loginbox">
+      <img src="https://images.unsplash.com/photo-1586880244386-8b3e34c8382c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80" alt="" class="avatar">
+      <h1>SIGN-UP</h1><br><br>
+      <form>
+
+          <p>Usename</p>
+          <input type="text" name="" placeholder="Enter Username">
+          <p> Create Password</p>
+          <input type="password" name="" placeholder="Enter Password" >
+          <br><br>
+          <p>Confirm Password</p>
+          <input type="password" name="" placeholder="Confirm Password" >
+          <br><br>
+          <input type="submit" value="SIGN-UP"><br>
+
+
+      </form>
+  </div>
+
+
+</body>
+</html>
