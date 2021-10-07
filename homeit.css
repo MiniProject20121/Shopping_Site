@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(https://media.istockphoto.com/photos/man-hands-using-online-banking-and-icon-on-tablet-screen-device-in-picture-id973139084?b=1&k=20&m=973139084&s=170667a&w=0&h=sSDQR63ETefZjrBxGwOrGIRykyCi3_kWgrSE76Zwscw=);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1300px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    margin-left: 8px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 30px;
+    font-family: Arial;
+    padding-left: px;
+    float: left;
+    padding-top: 10px;
+
+}
+.menu{
+    width: 380px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    margin-right: 2px;
+    list-style: none;
+    margin-left: 30px;
+    margin-top:85px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: aqua;
+    font-family: Arial;
+    font-weight: bold;
+    transition:0.4s ease-in-out;
+
+}
+ul li a:hover{
+    color:orange;
+}
+.search{
+    width: 300px;
+    float: left;
+    margin-left: 60px;
+
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 75px;
+    color: aqua;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding:10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius:5px ;
+
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border:2px solid #ff7200;
+    margin-top: 75px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+    cursor: pointer;
+
+}
+.btn:focus{
+    outline: none;
+
+
+}
+.srch:focus{
+    outline: none;
+}
+
+.in{
+    width: 60px;
+    height: 25px;
+    background: #ff7200;
+    margin-top: 80px;
+    margin-left: 30px;
+    border: 1px solid black;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+
+.it {
+    width: 80px;
+    height: 40px;
+    margin-left:180px;
+    margin-top: -80px;
+    background: #ff7200;
+    border-radius: 80px;
+    cursor: pointer;
+    border: 2px solid black;
+
+
+
+
+
+}
