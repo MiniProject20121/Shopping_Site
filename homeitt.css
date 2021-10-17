@@ -21,7 +21,7 @@ body{
     font-family: fantasy;
     font-size: 70px;
 }
-#sticky{
+.sticky{
     position: fixed;
     top: 0;
     width: 100%;
@@ -35,6 +35,7 @@ body{
     margin: 0;
     padding: 0;
     display: inline;
+    font-family: sans-serif;
 
 }
 .menu-ul li{
@@ -83,4 +84,68 @@ button{
     background: transparent;
     border: none;
     outline: none;
+}
+.categories{
+    margin: 50px 50px 50px 5%;
+    width: 90%;
+    text-align: center;
+    
+}
+.categories{
+    width:max-content;
+    border: 25px;
+    margin: 35px;
+    border: 2px solid #184d47;
+    border-radius:0 0 25px 25px;
+    display: inline-block;
+    padding: 5px;
+}
+.categories:hover{
+    box-shadow: 0 0 10px 3px #184d47;
+}
+.item.image{
+    height: 200px;
+    width: 200px;
+    border-radius:0 0 50px 50px;
+    padding: 20px;
+    
+}
+.image-title{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container2{
+    max-width: 1160px;
+    margin: auto;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #242624;
+    padding: 70px 0 ;
+     
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: rgb(233, 218, 218);
+    text-transform: capitalize;
+    margin-bottom: 30px;
 }
