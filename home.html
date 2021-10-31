@@ -5,30 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Document</title>
+    <title>E-Commerce Web</title>
     <link rel="stylesheet" href="homeitt.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+    <script>
+        function stickyMenu(){
+            var sticky = document.getElementById('Sticky');
+           if(window.pageYOffset>220){
+        }
+        else{
+            sticky.classList.remove(sticky)
+        }
+    }
+    window.onscroll=function(){
+        stickyMenu();
+    }
+    </script>
+
 </head>
 <body>
     <div class="parallax">
         <div class="page-title">
-            NetMart-Shopping </div>
+            TechMart-Shopping </div>
     </div>
         <div class="menu" id="sticky">
             <ul class="menu-ul">
                <a href="#" class="a-menu"><li>Home</li></a>
-               <a href="#" class="a-menu"><li>Deals</li></a>
-               <a href="#" class="a-menu"><li>Home</li></a>
-               <a href="#" class="a-menu"><li>Home</li></a>
-               <a href="#" class="a-menu"><li>Home</li></a>
+               <a href="#" class="a-menu"><li>Decoration</li></a>
+               <a href="#" class="a-menu"><li>Clothes</li></a>
+               <a href="#" class="a-menu"><li>Home-Appliance</li></a>
+               <a href="#" class="a-menu"><li>Electroincs</li></a>
+               <a href="#" class="a-menu"><li>Cart</li></a>
             </ul>
 
         </div class="search-box">
         <form>
             <input type="text" placeholder="search....."  name="search" class="search-input">
-            <button type="submit"><i class="fa fa-search"></i></button>
+            <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
         </form>
-   
+        </div>
+    </div>
+    <div class="container">
+    <a href="#Electronics">
+        <div class="categories">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6GBqdk9o1hqpJtH1uOq0aXtAAxLzRngufNZR-W48vfanADcqEgoLhvaHVt9t1v8GLlXo&usqp=CAU" class="item.image" >
+            <div class="image-title">Electroincs</div>
+        </div>
+
+    </a>
+    <a href="#Decoration">
+        <div class="categories">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzf6SiTr3lWJiDEOOHKzISKJuiZZpVXOYnyQ&usqp=CAU" class="item.image" >
+            <div class="image-title">Decoration</div>
+        </div>
+
+    </a>
+    <a href="#Decoration">
+        <div class="categories">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOWkJ9tM9xsXiRCXqbrBK9lgdT0zcjZokMT_LQ_GjvYpUUnOBUfgN9gq6l-s8T5msmBaQ&usqp=CAU" class="item.image" >
+            <div class="image-title">Clothes</div>
+        </div>
+
+    </a>
+    <a href="#Decoration">
+        <div class="categories">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs1RYHqSVDDIa-z64KSF6c1mmHL-7Vr_yh6xDIV4bY8qBe40FkR-nbx9him3Rp-nkxhXI&usqp=CAU" class="item.image" >
+            <div class="image-title">Home-Appliance</div>
+        </div>
+
+    </a>
     
+</div>
+<div class=" footer">
+    <div class="footer-content">
+    <div class="footer-section about"></div>
+    <div class="footer-section links"></div>
+    <div class="footer-section contact-form"></div>
+</div>
+
+    <div class="footer-bottom">
+        &copy; TechMart-Shopping.com 
+    </div>
+</div>
 </body>
 </html>
 
