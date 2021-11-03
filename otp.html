@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP-PAGE</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+           
+            background-size: cover;
+            background-position:center;
+            background-repeat: no-repeat;
+            height: 103vh;
+            font-family: sans-serif;
+            justify-content:space-evenly;
+        }
+        .loginbox{
+            width: 350px;
+            height:400px;
+            background: rgb(253, 206, 206);
+            color: rgb(204, 109, 109);
+            top:20% ;
+            left:40%;
+            position:absolute;
+            translate: translate(-50%,-50%);
+           text-align: center;
+           padding: 70px 30px;
+           border-radius: 50px;
+
+
+
+        }
+         .avatar{
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                position:relative;
+                top: -40px;
+                left:calc(-150% -150px);
+
+       }
+       h1{
+           margin: 0px;
+           text-align: center;
+           font-size: 20px;
+       }
+       .loginbox p{
+           margin: 0px;
+           padding: 0px;
+           font-weight: bold;
+
+       }
+       .loginbox input{
+           width: 80%;
+           margin-bottom: 20px;
+
+       }
+
+       .loginbox input[type="text"], input[type="password"]{
+           border:none;
+           border-bottom:1px solid #fff;
+           background:transparent;
+           outline:none;
+           height:40px;
+           font-size:16px;
+       }
+       .loginbox input[type="submit"]{
+           border : none;
+           outline: none;
+           height: 40px;
+           background: #bb5a5a;
+           color: #fff;
+           font-size: 18px;
+           border-radius: 20px;
+       }
+       .loginbox input[type="submit"]:hover{
+           cursor: pointer;
+  
+           color:#000;
+
+       }
+       .loginbox a {
+           text-decoration: none;
+           font-size: 12px;
+           line-height: 20px;
+           color:darkgrey;
+       }
+       .loginbox a:hover {
+           color: #ffc107;
+
+       }
+
+    </style>
+</head>
+<body>
+    <div class="loginbox">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO85fWSVeY3qevUdYootgI5RkwtVJxqP-ooiDDmp1mTY_g5O2wSIdy5pw3Dnm8W-KSLXY&usqp=CAU" alt="" class="avatar">
+      
+        <form>
+
+            <p>Phone Number</p>
+            <input type="text" name="Number"  maxlength="10">
+            <p>Enter a verification otp</p>
+            <input type="password" name=""  required='required'  maxlength="4">
+            <br><br>
+            <input type="submit" value="submit"><br>
+
+           
+          
+        </form>
+    </div>
+</body>
+</html>
