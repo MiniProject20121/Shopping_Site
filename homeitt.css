@@ -49,7 +49,7 @@ body{
     color: rgb(24, 10, 10);
 }
 .menu-ul li:hover{
-    background: #5b8c5a;
+    background: #325232;
     transform: scale(1.1);
 }
 .search-box{
