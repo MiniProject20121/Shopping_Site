@@ -1,6 +1,6 @@
 body{
     font-family: Garamond;
-    background-color: red;
+    background-color: rgb(151, 248, 255);
 }
 h1 {
     color: black;
@@ -23,14 +23,14 @@ h3 {
     margin-top: 60px;Okm
 }
 #userInput {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 2px    ;
+    margin-right: 2px;
     width: 40%;
     margin-top: 60px;
 }
 #textInput {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 2px;
+    margin-right: 2px;
     width: 40%;
     margin-top: 80px;
 }
