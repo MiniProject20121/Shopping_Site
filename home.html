@@ -5,26 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>E-Commerce Web</title>
+    <title>TechMart Shopping</title>
     <link rel="stylesheet" href="homeitt.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <script src="/popup.js"></script>
 
-    <script>
-        function stickyMenu(){
-            var sticky = document.getElementById('Sticky');
-           if(window.pageYOffset>220){
-        }
-        else{
-            sticky.classList.remove(sticky)
-        }
-    }
-    window.onscroll=function(){
-        stickyMenu();
-    }
-    </script>
+ 
 
 </head>
 <body>
+    <form action="">
+        <div class="popup" id="popup-1">
+            <div class="content">
+            <img src="https://www.wtravelmagazine.com/wp-content/uploads/2018/02/Background-Image-Signup-Page.jpg" alt="" class="avatar">
+            <h1>SIGN-IN</h1>
+                <p>Usename</p>
+                <div class="input-field"><input type="text" name="" placeholder="Enter Username" class="validate"></div>
+                <p>Password</p>
+                <div class="input-field"><input type="password" name="" placeholder="Enter Password" class="validate"></div>
+                <input type="submit" value="Sign-In" class="second-button">
+                <a href="#">Lost your password? </a>
+                <p>or</p>
+                <p>Don't have an account? <a href="/signup.html">Sign Up</a></p>
+            </div>
+        </div>
+    </form>
     <div class="parallax">
         <div class="page-title">
             TechMart-Shopping </div>
@@ -37,7 +42,7 @@
                <a href="#" class="a-menu" id="h"><li>Home-Appliance</li></a>
                <a href="#" class="a-menu" id="e"><li>Electroincs</li></a>
                <a href="#" class="a-menu" id="c"><li>Cart</li></a>
-               <a href="#" class="menu" id="sign"><li>Sign-In</li></a>
+               <input type="submit" name="sign_in" value="Sign-In" onclick="togglePopup()" class="first-button">
             </ul>
 
         </div class="search-box">
