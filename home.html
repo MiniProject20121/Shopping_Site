@@ -17,6 +17,8 @@
     <form action="">
         <div class="popup" id="popup-1">
             <div class="content">
+                <div class="close-btn" onclick="togglePopup()">
+                    ×</div>
             <img src="https://www.wtravelmagazine.com/wp-content/uploads/2018/02/Background-Image-Signup-Page.jpg" alt="" class="avatar">
             <h1>SIGN-IN</h1>
                 <p>Usename</p>
@@ -36,21 +38,26 @@
     </div>
         <div class="menu" id="sticky">
             <ul class="menu-ul">
+                <div class="search-box">
+            <input type="text" placeholder="search....."  name="search" class="search-input" id="si" >
+            <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
+
                <a href="#" class="a-menu" id="h"><li>Home</li></a>
                <a href="#" class="a-menu" id="d"><li>Decoration</li></a>
                <a href="#" class="a-menu" id="cl"><li>Clothes</li></a>
-               <a href="#" class="a-menu" id="h"><li>Home-Appliance</li></a>
+               <a href="#" class="a-menu" id="ho"><li>Home-Appliance</li></a>
                <a href="#" class="a-menu" id="e"><li>Electroincs</li></a>
                <a href="#" class="a-menu" id="c"><li>Cart</li></a>
                <input type="submit" name="sign_in" value="Sign-In" onclick="togglePopup()" class="first-button">
             </ul>
 
-        </div class="search-box">
+        <!-- </div class="search-box">
         <form>
             <input type="text" placeholder="search....."  name="search" class="search-input">
             <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
         </form>
-        </div>
+        </div> -->
     </div>
     <div class="container">
     <a href="#Electronics">

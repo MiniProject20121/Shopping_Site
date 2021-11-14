@@ -53,29 +53,28 @@ body{
     transform: scale(1.1);
 }
 .search-box{
-    border:2px solid rgb(61, 23, 23);
+    border:1px solid #52b975;
     border-radius: 100px;
-    background: rgb(243, 209, 209);
+    background: #52b975;
     width: max-content;
-    display: inline-block;
-   
-    margin: 20px;
-}
-.search-box:hover{
-    box-shadow: 0 0 10px 2px #5b8c5a;
     
-}
+  left: 40px;
+    display: inline-block;
+}/* .search-box:hover{
+    box-shadow: 0 0 5px 2px #5b8c5a;
+    
+} */
 
 
 .search-input{
-    width:250px;
+    width:245px;
     border: 2px solid;
-    border-radius: 10px;
-    font-size: 16px;
+    border-radius: 15px;
+    font-size: 15px;
     outline: none;
     background: transparent;
-    margin: 15px 0 0 10px;
-    background-color:rgb(10, 248, 252);
+    margin: 10px;
+    background-color: #52b975;
 }
 
 i{
@@ -145,6 +144,11 @@ button{
 }
 #h{
     color: black;
+    
+}
+#ho{
+    color: black;
+    
 }
 #d{
     color: black;
@@ -249,13 +253,13 @@ h1{
      font-family: sans-serif;
      border: none;
      position: absolute;
-     top: 38%;
-     left: 86%;
+     top: 37.7%;
+     left: 90%;
      color: black;
      font-size: 18px;
      font-weight: 500;
      padding: 25px 25px 26px 25px;
-     transform: translate(-50%, -50%);
+     transform: translate(-45%, -45%);
      background: #52b975;
      transition: box-shadow .35s ease !important;
      outline: none;
@@ -263,7 +267,7 @@ h1{
      
      .first-button:active {  
      background: linear-gradient(145deg, #222222, #292929);
-     box-shadow:  5px 5px 10px #262626, 
+     box-shadow:  5px 5px 5px #262626, 
                   -5px -5px 10px #262626;
      border: none;
      }
@@ -317,4 +321,7 @@ h1{
          height: 30px;
          box-shadow:  5px 5px 15px #1e1e1e, 
                      -5px -5px 15px #1e1e1e;
+         }
+         #si{
+             left:10%;
          }
