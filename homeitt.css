@@ -252,7 +252,7 @@ h1{
      
      font-family: sans-serif;
      border: none;
-     position: fixed;
+     position: absolute;
      top: 37.7%;
      left: 90%;
      color: black;
