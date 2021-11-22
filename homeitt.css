@@ -42,7 +42,7 @@ body{
     font-size: 17px;
     list-style: none;
     display: inline-block;
-    padding: 25px 25px 26px 25px;
+    padding: 25px 25px 25px 25px;
 }
 .a.menu{
     text-decoration: none;
@@ -51,31 +51,6 @@ body{
 .menu-ul li:hover{
     background: #325232;
     transform: scale(1.1);
-}
-.search-box{
-    border:2px solid rgb(61, 23, 23);
-    border-radius: 100px;
-    background: rgb(243, 209, 209);
-    width: max-content;
-    display: inline-block;
-   
-    margin: 20px;
-}
-.search-box:hover{
-    box-shadow: 0 0 10px 2px #5b8c5a;
-    
-}
-
-
-.search-input{
-    width:250px;
-    border: 2px solid;
-    border-radius: 10px;
-    font-size: 16px;
-    outline: none;
-    background: transparent;
-    margin: 15px 0 0 10px;
-    background-color:rgb(10, 248, 252);
 }
 
 i{
@@ -144,6 +119,7 @@ button{
 #sign{
     float: right;
     color: black;
+    margin-right: 20px;
     
 }
 #h{
