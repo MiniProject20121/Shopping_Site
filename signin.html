@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIGN-IN</title>
     <style>
+        html{
+            overflow: hidden;
+        }
         body{
             margin: 0px;
             padding: 0px;
@@ -22,7 +28,7 @@
             height:430px;
             background: rgb(253, 206, 206);
             color: rgb(179, 48, 48);
-            top:20% ;
+            top: 12% ;
             left:40%;
             position:absolute;
             translate: translate(-50%,-50%);
@@ -97,22 +103,24 @@
 </head>
 <body>
     <div class="loginbox">
+        <form action="/signin.php" method="POST">
         <img src="https://www.wtravelmagazine.com/wp-content/uploads/2018/02/Background-Image-Signup-Page.jpg" alt="" class="avatar">
         <h1>SIGN-IN</h1><br>
-        <form>
+        
 
-            <p>Usename</p>
-            <input type="text" name="" placeholder="Enter Username">
+            <p>Mobile No.</p>
+            <input type="text" name="phone" placeholder="Enter Mobile No." required>
             <p>Password</p>
-            <input type="password" name="" placeholder="Enter Password" >
+            <input type="password" name="password" placeholder="Enter Password" required >
             <br><br>
-            <input type="submit" value="SIGN-IN"><br>
+            <input type="submit" name="login" value="SIGN-IN">
+            <!-- <input type="submit" value="SIGN-IN" name="login"><br> -->
 
-            <a href="#">Lost your password? </a><br>
+            <a href="/forgot_password.html">Lost your password? </a><br>
             <p>or</p>
             <a href="/signup.html">Dont have Account? <br>SIGN-UP</a><br>
             <!-- <a href="/signup.html">SIGN-UP</a> -->
         </form>
-    </div>
+        </div>
 </body>
 </html>
