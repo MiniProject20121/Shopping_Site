@@ -11,6 +11,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    position: fixed;
 }
 .header h2{
     color: white;
