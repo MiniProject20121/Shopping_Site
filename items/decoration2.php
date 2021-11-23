@@ -45,7 +45,7 @@
           </div>
         </div>
         <div class = "product-content">
-          <h2 class = "product-title"> 3 Glass Mosaic Turkish Moroccan Tea Light Candle</h2>
+          <h2 class = "product-title">Turkish Moroccan Tea Light Candle</h2>
           <div class = "product-rating">
             <i class = "fa fa-star"></i>
             <i class = "fa fa-star"></i>
@@ -66,9 +66,8 @@
           <li>Each glass candle pedestal is individually mouthblown and hand-finished by skilled craftsmen. Slight variations may occur in this unique tea light holder</li>
           <li>Brahmz tealight holder will enhance the natural warm light of candles, giving it a ethnic but timeless look. They can be a part of your overall décor, or as a favour for your guests.</li>
           <li>Each Votive in this set has 3.25” diameter (top) and 3ʺ height. Works with regular tea-light candles, also with small LED flameless tea lights, votive candle, pillar, tealight, floating, wick candles.</li>
-          <li>Decorations: great table centerpiece for home, bar, and restaurant decor; fit in occasions like valentine’s day, wedding, anniversary, birthday, Christmas, Diwali, Halloween. Its unique appearance makes a pretty gift for your loved ones
-        </li>
-          <li>Brahmz votive candle holders works with regular tealight candles, also with small LED flameless tea lights, votive candle, small pillar, tealight</li>
+          
+          
           </ul>
           </div>
         <div class = "purchase-info">

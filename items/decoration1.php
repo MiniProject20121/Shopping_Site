@@ -61,13 +61,13 @@
         </div>
         <div class="product-detail">
           <hr>
-          <h2>About this item</h2
+          <h2>About this item</h2>
           <ul>
           <li>(8 Lighting Modes : This Star Light LED curtain light is one button control, press the button you can select 8 different modes to meet your diverse needs)</li>
           <li>Easy to use : 12 Stars(2 sizes), total 138pcs LED curtain string lights, Low voltage and ul Listed power supply, directly plug in and unplug for power on and off</li>
           <li>High Quality : The star curtain lights are made of 100% Copper Wire Material and never overheat no matter how long you have them on></li>
-          <li>Perfect to decorate your house, room, garden, tree,.6.6Ft x 3.3Ft star curtain string lights with 138 LEDs, power line length is 5.3Ft. For christmas, diwali, wedding ceremony, valentine's day, birthday party and other festivals or celebrations at home, restaurant, hotel, commercial building.        </li>
-          <li>The string lights are IP44 Waterproof, allow you to use them both indoor and outdoor. </li>
+          <li>Perfect to decorate your house, room, garden, tree,.6.6Ft x 3.3Ft star curtain string lights with 138 LEDs, power line length is 5.3Ft. For christmas, diwali, wedding ceremony, valentine's day etc.        </li>
+          <li>The string lights are IP44 Waterproof. </li>
           </ul>
           </div>
         <div class = "purchase-info">

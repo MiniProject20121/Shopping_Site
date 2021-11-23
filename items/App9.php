@@ -69,8 +69,7 @@
             <li>WARRANTY: 2 years on product and 5 years on motor </li>
             <li> Low noise level : 49 db for a disturbance free wash; Easy to use button controls: On and off, delay start, extra drying, start/pause  </li>
            <li>Water Consumption : 11 L per cycle ; Energy Consumption : 0.9 Kilowatt Hours  </li>
-           <li>7 Wash Programs: Intensive - for heavily soiled crockery (like Kadhai); Normal - for normally soiled loads; ECO - special program for saving water and electricity; Glass - for lightly soiled crockery and glass; 90 minute - for normally soiled loads that need a shorter wash; Rapid - 
-               a quick wash for lightly soiled loads that do not need drying; Soak - rinse function for dishes with tough stains</li>
+        
 
             </ul>
             </div>

@@ -40,7 +40,7 @@
         </div>
         <div class = "product-content">
           <h2 class = "product-title"></h2>
-          <h2 class = "product-title">DECORASIA Hexagon Shape Wooden Wall Shelf  (Number of Shelves - 6, Brown, Orange) </h2>
+          <h2 class = "product-title">DECORASIA Hexagon Shape Wooden Wall Shelf</h2>
           <div class = "product-rating">
             <i class = "fa fa-star"></i>
             <i class = "fa fa-star"></i>

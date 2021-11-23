@@ -68,7 +68,6 @@
             <li>Dual Rear Camera Setup - 12 MP Ultra Wide Camera: FF F2.2, FOV: 123°, Pixel Size: 1.12 µm +12 MP Wide Camera: Dual Pixel, F1.8, Pixel Size: 1.4µm OIS | Front Camera: 10 MP, 1.22µm FF, F2.4</li>
             <li>Main Display -6.7" Dynamic AMOLED 2X, Adaptive 120Hz(10~120Hz), FHD+ Infinity-O Display(2,640 x 1,080) 22:9 ratio, 425PPI| Cover Display - 1.9” Super AMOLED 60Hz (260 x 512), 302PPI></li>
             <li>3,300 mAh Dual battery ( 930 + 2,370 mAh) Wired 15W / Wireless 10W Wireless PowerShare &amp; Fingerprint Sensor (side)</li>
-            <li>IPX8 Rated, Dual Sim (1 Nano Sim + 1 eSim)</li>
             </ul>
             </div>
           <div class = "purchase-info">

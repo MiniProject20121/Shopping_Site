@@ -65,9 +65,7 @@
             <ul>
                 <li>Camera: Sony IMX 766 50MP+8MP+2MP AI Triple Camera with 4K@30FPS|1080p video at 30/60 fps | 32MP Front camera with 1080p video at 30/60 fps | 
                     Super Slow Motion: 1080p video at 120 fps, 720p video at 240 fps | Time-Lapse: 1080p 120fps;720p 240fps</li>
-                <li>Chipset: MediaTek Dimensity 1200-AI - The octa-core Dimensity 1200-AI features one of the fastest smartphone CPUs ever: 
-                    the 3GHz Arm Cortex-A78 provides the most immediate response, 
-                    with up to 22% faster CPU performance while also being 25% more power-efficient versus the previous generation</li>
+                <li>Chipset: 3GHz Arm Cortex-A78 provides the most immediate response</li>
                 <li>Display: 6.43-inch, 90Hz Fluid AMOLED display | Resolution: 2400 x 1080 pixels | 410 PPI | Aspect Ratio: 20:9 | Support sRGB, Display P3</li>
                 <li>Memory, Storage & SIM: 8GB RAM | 128GB internal memory on UFS 3.1 storage system.</li>
                 <li>Battery: Dual Cell 4500mAH lithium-ion battery</li>

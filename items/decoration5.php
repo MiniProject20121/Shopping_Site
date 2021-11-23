@@ -15,7 +15,6 @@
         <div class = "product-imgs">
           <div class = "img-display">
             <div class = "img-showcase">
-              latest
                 <img src = "https://rukminim1.flixcart.com/image/416/416/ktuewsw0/wall-decoration/g/f/g/set-of-3-wall-mounted-10-inch-decorative-mirrors-for-living-room-original-imag73kcaqp66ufq.jpeg?q=70" alt = "shoe image">
                 <img src = "https://rukminim1.flixcart.com/image/416/416/ktuewsw0/wall-decoration/y/p/b/set-of-3-wall-mounted-10-inch-decorative-mirrors-for-living-room-original-imag73kcnghqgugq.jpeg?q=70" alt = "shoe image">
                 <img src = "https://rukminim1.flixcart.com/image/416/416/ktuewsw0/wall-decoration/y/x/w/set-of-3-wall-mounted-10-inch-decorative-mirrors-for-living-room-original-imag73kcpmapdtm9.jpeg?q=70" alt = "shoe image">

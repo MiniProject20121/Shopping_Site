@@ -66,9 +66,9 @@
             <ul>
                 <li>Processor: AMD Ryzen 7 4800H Processor, 2.9 GHz Base Speed, Up to 4.2 GHz Max Boost Speed, 8 Cores, 16 Threads, 8MB L3 Cache</li>
                 <li>Memory: 8GB SO-DIMM DDR4 3200MHz, Support Up to 32GB Using 2x SO-DIMM slots with | Storage: 512GB M.2 NVMe PCIe 3.0 SSD with additional empty 1x M.2 2280 PCIe 3.0 SSD Slot</li>
-                <li>Graphics: Dedicated NVIDIA GeForce GTX 1650 GDDR6 4GB VRAM, With ROG Boost up to 1615MHz at 50W + 15W with Dynamic Boost</li>
-                <li>Display: 17.3-inch (43.94 cms) FHD (1920 x 1080) 16:9, 250nits, 144Hz Refresh Rate, vIPS-level Anti-glare Panel, 1000:1 Contrast Ratio, 45% NTSC, 62.5% sRGB, 47.34% Adobe, Adaptive-Sync technology.</li>
-                <li>I/O Port: 1x RJ45 LAN port, 1x USB 3.2 Gen 2 Type-C support DisplayPort / power delivery / G-SYNC, 3x USB 3.2 Gen 1 Type-A, 1x 3.5mm Combo Audio Jack, 1x HDMI 2.0b</li>
+                <li>Graphics: Dedicated NVIDIA GeForce GTX 1650 GDDR6 4GB VRAM</li>
+                <li>Display: 17.3-inch (43.94 cms) FHD (1920 x 1080) 16:9, 250nits, 144Hz Refresh Rate, Adaptive-Sync technology.</li>
+                <li>I/O Port: 1x RJ45 LAN port, 1x USB 3.2 Gen 2 Type-C support DisplayPort / power delivery / G-SYNC</li>
             </ul>
             </div>
           <div class = "purchase-info">

@@ -1,7 +1,8 @@
 <?php
-// session_start();
-// error_reporting(0);
-include('include/config.php');
+$connection=mysqli_connect('localhost','root','1234','mini_project');
+if(!$connection){
+    echo "Connection Not Established";
+}
 if(isset($_POST['login'])){
      
         $phone=$_POST['phone'];

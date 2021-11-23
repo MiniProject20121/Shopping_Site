@@ -67,7 +67,7 @@
           <li>Color: Black ; Material: Metal; Holder Type: E27</li>
           <li>Cord Length: 100 CM (Adjustable)</li>
           <li>Required good electrician to assemble and fit the product</li>
-          <li>Chandelier Hanging Light for Ceiling | Pendant Light for ceiling | Ceiling Light | Wooden Hanging Light for ceiling ; Gives Classy look to your interior; Suitable for :- Home> Bed Room, Living Room, Over the Dining Table, For Restaurant ,Bar Counter, Hotels, Malls, Shops ,Clubs , Pubs, Pool Table, even a foyer or entryway etc.</li>
+          <li>Chandelier Hanging Light for Ceiling | Pendant Light for ceiling | Ceiling Light | Wooden Hanging Light for ceiling ; Gives Classy look to your interior; Suitable for :- All Places.</li>
           <li>The light fixture requires E27 60W LED or Incandescent Bulb(Not Included)</li>
           </ul>
           </div>

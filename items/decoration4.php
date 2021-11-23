@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -69,7 +69,6 @@
         </li>
           <li>â¤ Size Dia 7.8" rings Length 20", bigger than most of Dreamcatchers decor. Beige tassels design with flowers and feathers also suit for Boho wedding dÃcoration.Perfect wall art and indispensable decoration for home.</li>
           <li>Decorative your home, office, bedroom, living room, even use it as a wedding and party decoration. Hanging it near the window makes a good dream at night</li>
-          <li>he packet includes 1Pc green beautiful bohemian design dream catcher with lights Kids, Teenagers, girls room, bedroom decorations. These dream catchers are low consumption,high safety and battery powered,you can use them almost anywhere. This dreaam cather is beautiful handmade by the craft experts and the materials used are very elegant. This dreamcatchers can be used for cute birthday return gifts to your little girl</li>
           </ul>
           </div>
         <div class = "purchase-info">
