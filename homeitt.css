@@ -138,3 +138,26 @@ button{
 #c{
     color: black;
 }
+.line3{
+    border: 2px solid black;
+    width: 295px;
+    height: 300px;
+    margin-left: 55px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    display: inline-flex;
+    margin: 42px;
+    padding: 10px;
+}
+.in{
+    width: 100%;
+    height: 100%;
+    display: flex;
+  
+
+}
+.im{
+    border: 1px solid black;
+    width: 100px;
+
+}
