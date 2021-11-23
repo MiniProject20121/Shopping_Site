@@ -3,8 +3,6 @@ $connection=mysqli_connect('localhost','root','1234','mini_project');
 if(!$connection){
     echo "Connection Not Established";
 }
-if(isset($_POST['login'])){
-     
         $phone=$_POST['phone'];
         $password=md5($_POST['password']);
         $sql="SELECT name FROM users WHERE  phoneno='$phone' AND password='$password'";
@@ -15,6 +13,4 @@ if(isset($_POST['login'])){
         else{
             echo "<script>alert('Invalid Details');</script>";
         }
-
-}
 ?>
