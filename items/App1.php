@@ -7,12 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+   
   </head>
-<<<<<<< HEAD:items/Appliance web page/App1.html
-  
-=======
   <?php include('header_homeApplia.html')?>
->>>>>>> e9d09e8cd2ef112e880dee5771f131d61381d914:items/App1.php
   <body>
 
     
@@ -89,5 +86,7 @@
 
     
     <script src="script.js"></script>
+    
   </body>
+  <?php include('footer.html');?>
 </html>

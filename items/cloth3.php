@@ -99,4 +99,5 @@
     
     <script src="script.js"></script>
   </body>
+  <?php include('footer.html');?>
 </html>
