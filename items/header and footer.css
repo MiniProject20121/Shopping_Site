@@ -58,4 +58,14 @@
  background-color: darkcyan;
 
 }
+@media screen and (max-width: 600px) {
+    .menu  a {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+    
+    }
 
+}
