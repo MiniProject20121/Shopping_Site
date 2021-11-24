@@ -87,6 +87,6 @@
     
     <script src="script.js"></script>
     
+    <?php include('footer.html');?>
   </body>
-  <?php include('footer.html');?>
 </html>

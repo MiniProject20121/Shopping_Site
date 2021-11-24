@@ -1,6 +1,5 @@
 
 <?php 
-/* code by webdevtrick ( https://webdevtrick.com ) */
 
 $connect = mysqli_connect("localhost", "root", "1234", "mini_project");
  

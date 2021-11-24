@@ -10,7 +10,9 @@
   </head>
   <?php include('header_homeApplia.html')?>
   <body>
-    
+    <form action="add.php" method="POST">
+  
+  
     <div class = "card-wrapper">
       <div class = "card">
         <div class = "product-imgs">
@@ -73,7 +75,7 @@
           <div class = "purchase-info">
             Quantity: 
             <input type = "number" min = "0" value = "1">
-            <button type = "button" class = "btn">
+            <button type = "submit" class = "btn" name="add_to_cart" id="app2">
               Add to Cart <i class = "fas fa-shopping-cart"></i>
             </button>
             <button type = "button" class = "btn">Buy Now</button>
@@ -82,7 +84,7 @@
       </div>
     </div>
 
-    
+    </form>
     <script src="script.js"></script>
     <?php include('footer.html');?>
   </body>
