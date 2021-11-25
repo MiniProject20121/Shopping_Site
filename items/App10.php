@@ -45,7 +45,7 @@
           </div>
         </div>
         <div class = "product-content">
-          <h2 class = "product-title">  Cooking Pan  </h2>
+          <h2 class = "product-title">  Air Fryer  </h2>
           <div class = "product-rating">
             <i class = "fa fa-star"></i>
             <i class = "fa fa-star"></i>
