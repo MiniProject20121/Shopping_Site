@@ -1,16 +1,22 @@
 <?php
+// session_start();
+$phone=$_POST['phone'];
+$password=$_POST['password'];
 $connection=mysqli_connect('localhost','root','1234','mini_project');
 if(!$connection){
     echo "Connection Not Established";
 }
-        $phone=$_POST['phone'];
-        $password=md5($_POST['password']);
-        $sql="SELECT name FROM users WHERE  phoneno='$phone' AND password='$password'";
-        if(mysqli_query($connection,$sql)){
-            echo "<script>alert('Welcome');</script>";
-            header("location:home.html");
-        }
-        else{
-            echo "<script>alert('Invalid Details');</script>";
-        }
+else{
+    $query="SELECT * FROM users WHERE phoneno='$phone' AND password='$password'";
+    $result=mysqli_query($connection,$query);
+    $count=mysqli_num_rows($result);
+    if($count!=0){
+        echo "<script>alert('Welcome To TechMart Shopping')</script>";
+        header("location:home.html");
+    }
+    else{
+        echo "<script>alert('Invalid Details')</script>";
+        header("refresh:2;url=signin.html");
+    }
+}
 ?>
