@@ -12,7 +12,7 @@ else{
     $count=mysqli_num_rows($result);
     if($count!=0){
         echo "<script>alert('Welcome To TechMart Shopping')</script>";
-        header("location:home.html");
+        header("location:index.php");
     }
     else{
         echo "<script>alert('Invalid Details')</script>";
