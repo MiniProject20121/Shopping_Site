@@ -43,7 +43,7 @@
         
     </div>
     <div class="container">
-    <a href="electronics_home.html">
+    <a href="electronics_home.php">
         <div class="categories">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6GBqdk9o1hqpJtH1uOq0aXtAAxLzRngufNZR-W48vfanADcqEgoLhvaHVt9t1v8GLlXo&usqp=CAU" class="item.image" >
             <div class="image-title">Electroincs</div>
