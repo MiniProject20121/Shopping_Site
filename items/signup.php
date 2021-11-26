@@ -1,5 +1,5 @@
 <?php
-$connection=mysqli_connect('localhost','root','1234','mini_project');
+$connection=mysqli_connect('localhost','root','','mini_project');
 if(!$connection){
     echo "Connection Not Established";
 }
