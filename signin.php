@@ -2,7 +2,7 @@
 // session_start();
 $phone=$_POST['phone'];
 $password=$_POST['password'];
-$connection=mysqli_connect('localhost','root','1234','mini_project');
+$connection=mysqli_connect('localhost','root','','mini_project');
 if(!$connection){
     echo "Connection Not Established";
 }
@@ -12,7 +12,7 @@ else{
     $count=mysqli_num_rows($result);
     if($count!=0){
         echo "<script>alert('Welcome To TechMart Shopping')</script>";
-        header("location:home.html");
+        header("location:index.php");
     }
     else{
         echo "<script>alert('Invalid Details')</script>";
