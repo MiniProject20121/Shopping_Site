@@ -2,7 +2,7 @@
 $phone=$_POST['mobile_no'];
 $password=$_POST['password'];
 $password_confirm=$_POST['password_confirm'];
-$connection=mysqli_connect('localhost','root','','mini_project');
+$connection=mysqli_connect('localhost','root','1234','mini_project');
 if(!$connection){
     echo "Connection Not Established";
 }
