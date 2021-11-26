@@ -10,7 +10,7 @@
 <body>
   <h1> Electronics</h1>
   <div class="topnav">
-    <a class="active" href="/Web_Page/items/home.html">Home</a>
+    <a class="active" href="index.php">Home</a>
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
     <input type="text" placeholder="Search..">
@@ -184,4 +184,5 @@
 </a>
     
 </body>
+<?php include('footer.html'); ?>
 </html>

@@ -43,7 +43,7 @@
         
     </div>
     <div class="container">
-    <a href="electronics_home.html">
+    <a href="electronics_home.php">
         <div class="categories">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6GBqdk9o1hqpJtH1uOq0aXtAAxLzRngufNZR-W48vfanADcqEgoLhvaHVt9t1v8GLlXo&usqp=CAU" class="item.image" >
             <div class="image-title">Electroincs</div>
@@ -76,17 +76,7 @@
 </div>
 <div><a href="">ChatBox</a></div>
 
-<div class=" footer">
-    <div class="footer-content">
-    <div class="footer-section about"></div>
-    <div class="footer-section links"></div>
-    <div class="footer-section contact-form"></div>
-</div>
-
-    <div class="footer-bottom">
-        &copy; TechMart-Shopping.com 
-    </div>
-</div>
+<?php include('footer.html');?>
 </body>
 </html>
 
