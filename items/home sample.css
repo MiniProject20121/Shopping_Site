@@ -4,24 +4,29 @@
     box-sizing: border-box;
 }
 .pa{
-    border: 1px solid black;
-    width: 1200px;
-    height: 200px;
+    border: 2px solid black;
+    width: 185px;
+    height: 228px;
     margin: 20px 20px 25px 25px;
+  
     
 }
 .small{
   border: 1px solid black;
-  height: 175px;
-  width: 150px;
+  height: 183px;
+  width: 182px;
+  
 }
 /* .hook{
   margin-left: 200px;
 
 } */
 .space{
-  height: 220px;
+  height: 300px;
   width: 200px;
+  display: inline-flex;
+  margin: 25px;
+  padding: 25px;
 }
 
 .small:hover{
@@ -104,9 +109,12 @@ h3{
     }
   }
   img{
-    width: 146px;
-    height: 174.5px;
+    width: 180px;
+    height: 180.5px;
     background-size:cover;
     
+  }
+  p{
+    margin-left: 150px;
   }
  
