@@ -76,17 +76,7 @@
 </div>
 <div><a href="">ChatBox</a></div>
 
-<div class=" footer">
-    <div class="footer-content">
-    <div class="footer-section about"></div>
-    <div class="footer-section links"></div>
-    <div class="footer-section contact-form"></div>
-</div>
-
-    <div class="footer-bottom">
-        &copy; TechMart-Shopping.com 
-    </div>
-</div>
+<?php include('footer.html');?>
 </body>
 </html>
 
