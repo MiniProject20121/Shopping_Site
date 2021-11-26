@@ -11,7 +11,7 @@ $query="SELECT * FROM users WHERE phoneno='$phone' AND email='$email'";
 $result=mysqli_query($connection,$query);
 $count=mysqli_num_rows($result);
 if($count==0){
-    $insert="INSERT INTO users (name,email,password,phoneno) VALUES ('$name',$email','$password','$phone')";
+    $insert="INSERT INTO users (name, email, password, phoneno) VALUES ('$name',$email','$password','$phone')";
     if(mysqli_query($connection,$insert)){
         echo "<script>alert('Welcome to TechMart Shopping')</script>";
         header("refresh:2;url=signin.html");
