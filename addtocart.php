@@ -46,7 +46,7 @@ switch($_GET["action"]) {
 ?>
 <HTML>
 <HEAD>
-<TITLE>Simple PHP Shopping Cart</TITLE>
+<TITLE>TechMart Shopping Cart</TITLE>
 <link href="cart.css" type="text/css" rel="stylesheet" />
 </HEAD>
 <?php include('cartheader.html');?>
