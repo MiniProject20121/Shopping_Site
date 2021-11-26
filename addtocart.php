@@ -47,7 +47,7 @@ switch($_GET["action"]) {
 <HTML>
 <HEAD>
 <TITLE>Simple PHP Shopping Cart</TITLE>
-<link href="style.css" type="text/css" rel="stylesheet" />
+<link href="cart.css" type="text/css" rel="stylesheet" />
 </HEAD>
 <BODY>
 <div id="shopping-cart">
