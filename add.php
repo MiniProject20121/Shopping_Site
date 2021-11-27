@@ -1,7 +1,7 @@
 
 <?php 
 
-$connect = mysqli_connect("localhost", "root", "1234", "mini_project");
+$connect = mysqli_connect("localhost", "root", "", "mini_project");
  
 if(isset($_POST["add_to_cart"]))
 {
