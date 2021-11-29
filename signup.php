@@ -10,7 +10,7 @@ $password=md5($_POST['pass']);
 $query="SELECT * FROM users WHERE phoneno='$phone' AND email='$email'";
 $result=mysqli_query($connection,$query);
 $count=mysqli_num_rows($result);
-if($count==0){
+if($count==1){
     $insert="INSERT INTO users (name, email, password, phoneno) VALUES ('$name',$email','$password','$phone')";
     if(mysqli_query($connection,$insert)){
         echo "<script>alert('Welcome to TechMart Shopping')</script>";
