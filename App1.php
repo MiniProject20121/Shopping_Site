@@ -75,10 +75,13 @@
           <div class = "purchase-info">
             Quantity: 
             <input type = "number" min = "0" value = "1">
-            <button type = "button" class = "btn">
-              Add to Cart <i class = "fas fa-shopping-cart"></i>
-            </button>
-            <button type = "button" class = "btn">Buy Now</button>
+            <form action="" method="post">
+              
+              <button type = "submit" class = "btn" name="app1">
+                Add to Cart <i class = "fas fa-shopping-cart"></i>
+              </button>
+              <button type = "button" class = "btn">Buy Now</button>
+            </form>
           </div>
         </div>
       </div>

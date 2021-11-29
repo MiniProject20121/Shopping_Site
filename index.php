@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>E-Commerce Web</title>
+    <title>TechMart-Shopping</title>
     <link rel="stylesheet" href="homeitt.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
 
@@ -36,14 +36,14 @@
                <a href="cloth_home.html" class="a-menu" id="cl"><li>Clothes</li></a>
                <a href="Appliance_home.html" class="a-menu" id="h"><li>Home-Appliance</li></a>
                <a href="electronics_home.html" class="a-menu" id="e"><li>Electroincs</li></a>
-               <a href="#cart" class="a-menu" id="c"><li>Cart</li></a>
+               <a href="addtocart.php" class="a-menu" id="c"><li>Cart</li></a>
                <a href="signin.html" class="menu" id="sign"><li>Sign-In</li></a>
             </ul>
 
         
     </div>
     <div class="container">
-    <a href="electronics_home.html">
+    <a href="electronics_home.php">
         <div class="categories">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6GBqdk9o1hqpJtH1uOq0aXtAAxLzRngufNZR-W48vfanADcqEgoLhvaHVt9t1v8GLlXo&usqp=CAU" class="item.image" >
             <div class="image-title">Electroincs</div>
@@ -74,19 +74,9 @@
 
    
 </div>
+<div><a href="">ChatBox</a></div>
 
-
-<div class=" footer">
-    <div class="footer-content">
-    <div class="footer-section about"></div>
-    <div class="footer-section links"></div>
-    <div class="footer-section contact-form"></div>
-</div>
-
-    <div class="footer-bottom">
-        &copy; TechMart-Shopping.com 
-    </div>
-</div>
+<?php include('footer.html');?>
 </body>
 </html>
 
