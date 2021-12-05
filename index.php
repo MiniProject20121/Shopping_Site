@@ -24,6 +24,9 @@
     </script>
 
 </head>
+<?php
+include('top-header.php');
+?>
 <body>
     <div class="parallax">
         <div class="page-title">
