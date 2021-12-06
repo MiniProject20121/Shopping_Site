@@ -1,5 +1,5 @@
 <?php
-// session_start();
+session_start();
 $phone=$_POST['phone'];
 $password=$_POST['password'];
 $connection=mysqli_connect('localhost','root','','mini_project');
@@ -12,6 +12,7 @@ else{
     $count=mysqli_num_rows($result);
     if($count!=0){
         echo "<script>alert('Welcome To TechMart Shopping')</script>";
+        $_SESSION['is_login'] = "hello";
         header("location:index.php");
     }
     else{

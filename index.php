@@ -26,11 +26,15 @@
 </head>
 
 <body>
+    <?php
+        session_start();
+    ?>
     <div class="parallax">
         <div class="page-title">
             TechMart-Shopping </div>
     </div>
         <div class="menu" id="sticky">
+     
            
             <ul class="menu-ul">
                <a href="#" class="a-menu" id="h"><li>Home</li></a>
@@ -39,8 +43,15 @@
                <a href="Appliance_home.html" class="a-menu" id="h"><li>Home-Appliance</li></a>
                <a href="electronics_home.html" class="a-menu" id="e"><li>Electroincs</li></a>
                <a href="addtocart.php" class="a-menu" id="c"><li>Cart</li></a>
-               <a href="signin.html" class="menu" id="sign"><li>Sign-In</li></a>
-                
+               <?php
+                    if(isset($_SESSION['is_login'])){
+                        echo $_SESSION['is_login'];
+                        echo "<a href='./logout.php' class='menu' id='sign'><li>logOut</li></a>";
+                    } else{
+                        // echo $_SESSION['is_login'];
+                        echo "<a href='./signin.html' class='menu' id='sign'><li>Sign-In</li></a>";
+                    }
+               ?>                
             </ul>
 
         
