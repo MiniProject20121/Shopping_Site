@@ -61,16 +61,20 @@ include('includes/config.php');
 
 </head>
 <body>
+
 <header class="header-style-1">
 <?php include('includes/top-header.php');?>
 </header>
+
     <div class="parallax">
         <div class="page-title">
             TechMart-Shopping </div>
     </div>
         <div class="menu" id="sticky">
+     
            
             <ul class="menu-ul">
+
                <li><a href="#" class="a-menu" id="h"><li>Home</li></a></li>
                <a href="my-cart.php" class="a-menu" id="c"><li>Cart</li></a>
                <?php $sql=mysqli_query($con,"select id,categoryName  from category limit 6");
@@ -81,8 +85,7 @@ while($row=mysqli_fetch_array($sql))
 				<a class="a-menu" href="category.php?cid=<?php echo $row['id'];?>"> <?php echo $row['categoryName'];?></a>
 			
 			</li>
-			<?php } ?>
-                
+			<?php } ?>   
             </ul>
 
         
