@@ -1,7 +1,15 @@
 <?php
+session_start();
+error_reporting(0);
 include('includes/config.php');
-?>
+if(isset($_GET['action']) && $_GET['action']=="add"){
+	$id=intval($_GET['id']);
+	if(isset($_SESSION['cart'][$id])){
+		$_SESSION['cart'][$id]['quantity']++;
+	}
+}
 
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,9 +22,8 @@ include('includes/config.php');
     <link rel="stylesheet" href="homeitt.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	    
-	    <!-- Customizable CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	    <link rel="stylesheet" href="assets/css/main.css">
 	    <link rel="stylesheet" href="assets/css/green.css">
 	    <link rel="stylesheet" href="assets/css/owl.carousel.css">
@@ -29,7 +36,8 @@ include('includes/config.php');
 
 		<!-- Demo Purpose Only. Should be removed in production -->
 		<link rel="stylesheet" href="assets/css/config.css">
-        <link href="assets/css/green.css" rel="alternate stylesheet" title="Green color">
+
+		<link href="assets/css/green.css" rel="alternate stylesheet" title="Green color">
 		<link href="assets/css/blue.css" rel="alternate stylesheet" title="Blue color">
 		<link href="assets/css/red.css" rel="alternate stylesheet" title="Red color">
 		<link href="assets/css/orange.css" rel="alternate stylesheet" title="Orange color">
@@ -37,14 +45,15 @@ include('includes/config.php');
 		<!-- Demo Purpose Only. Should be removed in production : END -->
 
 		
-		<!-- Icons/Glyphs -->
+		
 		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
-        <!-- Fonts --> 
+      
 		<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
 		
-		<!-- Favicon -->
+	
 		<link rel="shortcut icon" href="assets/images/favicon.ico">
+
     <script>
         function stickyMenu(){
             var sticky = document.getElementById('Sticky');
@@ -96,6 +105,7 @@ while($row=mysqli_fetch_array($sql))
 {
     ?>
         <div class="categories">
+        <img  src="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="admin/productimages/<?php echo htmlentities($row['productImage1']);?>"  width="180" height="300" alt=""></a><br>
         <a class="a-menu" href="category.php?cid=<?php echo $row['id'];?>"> <?php echo $row['categoryName'];?></a>
         </div>
         <?php } ?>
