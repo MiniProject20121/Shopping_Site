@@ -1,3 +1,8 @@
+<?php
+include('includes/config.php');
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,8 +12,39 @@
 
     <title>TechMart-Shopping</title>
     <link rel="stylesheet" href="homeitt.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	    
+	    <!-- Customizable CSS -->
+	    <link rel="stylesheet" href="assets/css/main.css">
+	    <link rel="stylesheet" href="assets/css/green.css">
+	    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+		<link rel="stylesheet" href="assets/css/owl.transitions.css">
+		<!--<link rel="stylesheet" href="assets/css/owl.theme.css">-->
+		<link href="assets/css/lightbox.css" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/animate.min.css">
+		<link rel="stylesheet" href="assets/css/rateit.css">
+		<link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
 
+		<!-- Demo Purpose Only. Should be removed in production -->
+		<link rel="stylesheet" href="assets/css/config.css">
+        <link href="assets/css/green.css" rel="alternate stylesheet" title="Green color">
+		<link href="assets/css/blue.css" rel="alternate stylesheet" title="Blue color">
+		<link href="assets/css/red.css" rel="alternate stylesheet" title="Red color">
+		<link href="assets/css/orange.css" rel="alternate stylesheet" title="Orange color">
+		<link href="assets/css/dark-green.css" rel="alternate stylesheet" title="Darkgreen color">
+		<!-- Demo Purpose Only. Should be removed in production : END -->
+
+		
+		<!-- Icons/Glyphs -->
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+        <!-- Fonts --> 
+		<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="assets/images/favicon.ico">
     <script>
         function stickyMenu(){
             var sticky = document.getElementById('Sticky');
@@ -25,6 +61,9 @@
 
 </head>
 <body>
+<header class="header-style-1">
+<?php include('includes/top-header.php');?>
+</header>
     <div class="parallax">
         <div class="page-title">
             TechMart-Shopping </div>
@@ -32,47 +71,34 @@
         <div class="menu" id="sticky">
            
             <ul class="menu-ul">
-               <a href="#" class="a-menu" id="h"><li>Home</li></a>
-               <a href="decoration_home.html" class="a-menu" id="d"><li>Decoration</li></a>
-               <a href="cloth_home.html" class="a-menu" id="cl"><li>Clothes</li></a>
-               <a href="Appliance_home.html" class="a-menu" id="h"><li>Home-Appliance</li></a>
-               <a href="electronics_home.html" class="a-menu" id="e"><li>Electroincs</li></a>
-               <a href="addtocart.php" class="a-menu" id="c"><li>Cart</li></a>
-               <a href="signin.html" class="menu" id="sign"><li>Sign-In</li></a>
+               <li><a href="#" class="a-menu" id="h"><li>Home</li></a></li>
+               <a href="my-cart.php" class="a-menu" id="c"><li>Cart</li></a>
+               <?php $sql=mysqli_query($con,"select id,categoryName  from category limit 6");
+while($row=mysqli_fetch_array($sql))
+{
+    ?>
+    <li>
+				<a class="a-menu" href="category.php?cid=<?php echo $row['id'];?>"> <?php echo $row['categoryName'];?></a>
+			
+			</li>
+			<?php } ?>
                 
             </ul>
 
         
     </div>
     <div class="container">
-    <a href="electronics_home.php">
+    <?php $sql=mysqli_query($con,"select id,categoryName  from category limit 6");
+while($row=mysqli_fetch_array($sql))
+{
+    ?>
         <div class="categories">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6GBqdk9o1hqpJtH1uOq0aXtAAxLzRngufNZR-W48vfanADcqEgoLhvaHVt9t1v8GLlXo&usqp=CAU" class="item.image" >
-            <div class="image-title">Electroincs</div>
+        <a class="a-menu" href="category.php?cid=<?php echo $row['id'];?>"> <?php echo $row['categoryName'];?></a>
         </div>
+        <?php } ?>
 
-    </a>
-    <a href="decoration_home.html">
-        <div class="categories">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzf6SiTr3lWJiDEOOHKzISKJuiZZpVXOYnyQ&usqp=CAU" class="item.image" >
-            <div class="image-title">Decoration</div>
-        </div>
-
-    </a>
-    <a href="cloth_home.html">
-        <div class="categories">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOWkJ9tM9xsXiRCXqbrBK9lgdT0zcjZokMT_LQ_GjvYpUUnOBUfgN9gq6l-s8T5msmBaQ&usqp=CAU" class="item.image" >
-            <div class="image-title">Clothes</div>
-        </div>
-
-    </a>
-    <a href="Appliance_home.html">
-        <div class="categories">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs1RYHqSVDDIa-z64KSF6c1mmHL-7Vr_yh6xDIV4bY8qBe40FkR-nbx9him3Rp-nkxhXI&usqp=CAU" class="item.image" >
-            <div class="image-title">Home-Appliance</div>
-        </div>
-
-    </a>
+    
+    
 
    
 </div>

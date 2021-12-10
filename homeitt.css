@@ -46,7 +46,7 @@ body{
 }
 .a.menu{
     text-decoration: none;
-    color: rgb(24, 10, 10);
+    color:white;
 }
 .menu-ul li:hover{
     background: #325232;
@@ -122,22 +122,7 @@ button{
     margin-right: 20px;
     
 }
-#h{
-    color: black;
-}
-#d{
-    color: black;
 
-}
-#cl{
-    color: black;
-}
-#e{
-    color: black;
-}
-#c{
-    color: black;
-}
 .line3{
     border: 2px solid black;
     width: 295px;
