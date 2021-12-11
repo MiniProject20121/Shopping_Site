@@ -331,7 +331,7 @@ echo "Your shopping Cart is empty";
 
 </div>
 </div>
-<?php include('footer.html');?>
+<?php include('includes/footer.php');?>
 
 	<script src="assets/js/jquery-1.11.1.min.js"></script>
 	

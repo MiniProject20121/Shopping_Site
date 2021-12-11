@@ -117,7 +117,7 @@ while($row=mysqli_fetch_array($sql))
 </div>
 <div><a href="">ChatBox</a></div>
 
-<?php include('footer.html');?>
+<?php include('includes/footer.php');?>
 </body>
 </html>
 
