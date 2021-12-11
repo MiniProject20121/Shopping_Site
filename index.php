@@ -87,8 +87,6 @@ while($row=mysqli_fetch_array($sql))
 
    
 </div>
-<div><a href="">ChatBox</a></div>
-
 <?php include('includes/footer.html');?>
 </body>
 </html>
