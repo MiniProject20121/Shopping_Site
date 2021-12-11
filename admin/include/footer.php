@@ -88,7 +88,7 @@
         
         
         .link ul li a:hover {
-        color: #000;
+        color: white;
         }
         
         .contact ul li{

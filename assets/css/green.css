@@ -14,11 +14,11 @@ h5,
 h6{ color:#444; }
 	
 a, 
-a:visited{ color:#C1392B; }
+a:visited{ color:#ffffff; }
 
 .slidetext h2, 
 .slidetext h3,
-.rs-slidetext-title{ border-left:3px solid #C1392B !important; }
+.rs-slidetext-title{ border-left:3px solid #ffffff !important; }
 
 /* header-top 
 -----------------------------------------------------------------------------------------------*/
@@ -26,7 +26,7 @@ a:visited{ color:#C1392B; }
 .contact-number{ background-color:#C1392B; color:#fff; }
 
 /* styling of LEVEL 1 menu item that is current */ 
-ul#dropdown-menu li.current > a{ color:#C1392B;  }
+ul#dropdown-menu li.current > a{ color:#ffffff;  }
 
 /* level 2 menu */
 ul#dropdown-menu ul{ border-top:3px solid #C1392B; }
