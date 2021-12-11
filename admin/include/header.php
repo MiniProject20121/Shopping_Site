@@ -5,13 +5,13 @@
 					<i class="icon-reorder shaded"></i>
 				</a>
 
-			  	<a class="brand" href="index.html">
+			  	<a class="brand" href="index.php">
 			  		Shopping Portal | Admin
 			  	</a>
 
 				<div class="nav-collapse collapse navbar-inverse-collapse">
 					<ul class="nav pull-right">
-						<li><a href="#">
+						<li><a href="index.php">
 							Admin
 						</a></li>
 						<li class="nav-user dropdown">

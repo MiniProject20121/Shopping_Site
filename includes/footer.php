@@ -20,18 +20,19 @@
             position: relative;
             
         }
-        
         a{
             text-decoration: none;
             transition: .5s;
             color: #fff;
         }
-        
+        h2{
+            color: white;
+        }
         ul, li{
             list-style: none;
         }
         footer{
-            background-color:rgb(0, 0, 0);
+            background-color:black;
             color: #fff;
         }
         .footer_info{
@@ -61,7 +62,6 @@
         .social-media ul{
             display:flex ;
         }
-        
         .social-media ul li a{
             display: inline-block;
             margin-right: 50px;
@@ -70,25 +70,25 @@
             padding-top: 12px;
             background-color: transparent;
             border: 1px solid #fff;
+            color: white;
             text-align: center;
         
         }
-        
         .social-media ul li a:hover{
-            background-color: #fff;
-            color: #000;
+            color: grey;
         
         }
-        
         .link ul li a {
+            margin-left: 5mm;
             display: block;
             margin-bottom: 15px;
             font-size: 18px;
+            color: white;
         }
         
         
         .link ul li a:hover {
-        color: #000;
+        color: grey;
         }
         
         .contact ul li{

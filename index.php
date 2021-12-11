@@ -85,7 +85,6 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
             <ul class="menu-ul">
 
                <li><a href="#" class="a-menu" id="h"><li>Home</li></a></li>
-               <a href="my-cart.php" class="a-menu" id="c"><li>Cart</li></a>
                <?php $sql=mysqli_query($con,"select id,categoryName  from category limit 6");
 while($row=mysqli_fetch_array($sql))
 {
@@ -105,8 +104,8 @@ while($row=mysqli_fetch_array($sql))
 {
     ?>
         <div class="categories">
-        <img  src="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="admin/productimages/<?php echo htmlentities($row['productImage1']);?>"  width="180" height="300" alt=""></a><br>
-        <a class="a-menu" href="category.php?cid=<?php echo $row['id'];?>"> <?php echo $row['categoryName'];?></a>
+            <img  src="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="admin/productimages/<?php echo htmlentities($row['productImage1']);?>"  width="180" height="300" alt=""></a><br>
+            <a class="a-menu" href="category.php?cid=<?php echo $row['id'];?>"> <?php echo $row['categoryName'];?>
         </div>
         <?php } ?>
 
