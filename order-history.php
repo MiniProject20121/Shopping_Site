@@ -13,7 +13,7 @@ else{
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<!-- Meta -->
+	
 		<meta charset="utf-8">
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -34,7 +34,7 @@ else{
 		<link rel="stylesheet" href="assets/css/rateit.css">
 		<link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
 
-		<!-- Demo Purpose Only. Should be removed in production -->
+		
 		<link rel="stylesheet" href="assets/css/config.css">
 
 		<link href="assets/css/green.css" rel="alternate stylesheet" title="Green color">
@@ -61,14 +61,12 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
 	</head>
     <body class="cnt-home">
 	
-		
 	
-		<!-- ============================================== HEADER ============================================== -->
 <header class="header-style-1">
 <?php include('includes/top-header.php');?>
 <?php include('includes/menu-bar.php');?>
 </header>
-<!-- ============================================== HEADER : END ============================================== -->
+
 <div class="breadcrumb">
 	<div class="container">
 		<div class="breadcrumb-inner">
@@ -76,9 +74,9 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
 				<li><a href="#">Home</a></li>
 				<li class='active'>Shopping Cart</li>
 			</ul>
-		</div><!-- /.breadcrumb-inner -->
-	</div><!-- /.container -->
-</div><!-- /.breadcrumb -->
+		</div>
+	</div>
+</div>
 
 <div class="body-content outer-top-xs">
 	<div class="container">
@@ -103,7 +101,7 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
 					<th class="cart-description item">Order Date</th>
 					<th class="cart-total last-item">Action</th>
 				</tr>
-			</thead><!-- /thead -->
+			</thead>
 			
 			<tbody>
 
@@ -140,19 +138,17 @@ while($row=mysqli_fetch_array($query))
 				</tr>
 <?php $cnt=$cnt+1;} ?>
 				
-			</tbody><!-- /tbody -->
-		</table><!-- /table -->
+			</tbody>
+		</table>
 		
 	</div>
 </div>
 
-		</div><!-- /.shopping-cart -->
-		</div> <!-- /.row -->
+		</div>
+		</div> 
 		</form>
-		<!-- ============================================== BRANDS CAROUSEL ============================================== -->
-
-<!-- ============================================== BRANDS CAROUSEL : END ============================================== -->	</div><!-- /.container -->
-</div><!-- /.body-content -->
+		</div>
+</div>
 <?php include('includes/footer.php');?>
 
 	<script src="assets/js/jquery-1.11.1.min.js"></script>
@@ -188,7 +184,7 @@ while($row=mysqli_fetch_array($query))
 		   $('.show-theme-options').delay(2000).trigger('click');
 		});
 	</script>
-	<!-- For demo purposes – can be removed on production : End -->
+	
 </body>
 </html>
 <?php } ?>

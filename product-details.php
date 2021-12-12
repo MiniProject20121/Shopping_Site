@@ -74,7 +74,7 @@ if(isset($_POST['submit']))
 		<link href="assets/css/dark-green.css" rel="alternate stylesheet" title="Darkgreen color">
 		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
-        <!-- Fonts --> 
+        
 		<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
 		<link rel="shortcut icon" href="assets/images/favicon.ico">
 		
@@ -84,17 +84,12 @@ if(isset($_POST['submit']))
 	<script src="script.js"></script>
 <header class="header-style-1">
 
-	<!-- ============================================== TOP MENU ============================================== -->
 <?php include('includes/top-header.php');?>
-<!-- ============================================== TOP MENU : END ============================================== -->
 
-	<!-- ============================================== NAVBAR ============================================== -->
 <?php include('includes/menu-bar.php');?>
-<!-- ============================================== NAVBAR : END ============================================== -->
 
 </header>
 
-<!-- ============================================== HEADER : END ============================================== -->
 <div class="breadcrumb">
 	<div class="container">
 		<div class="breadcrumb-inner">
@@ -123,7 +118,7 @@ while ($rw=mysqli_fetch_array($ret)) {
 
 
 
-<!-- ============================================== COLOR: END ============================================== -->
+
 				</div>
 			</div>
 <?php 
@@ -154,13 +149,13 @@ while($row=mysqli_fetch_array($ret))
                 <a data-lightbox="image-1" data-title="<?php echo htmlentities($row['productName']);?>" href="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>">
                     <img class="img-responsive" alt="" src="assets/images/blank.gif" data-echo="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" width="370" height="350" />
                 </a>
-            </div><!-- /.single-product-gallery-item -->
+            </div>
 
             <div class="single-product-gallery-item" id="slide2">
                 <a data-lightbox="image-1" data-title="Gallery" href="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage2']);?>">
                     <img class="img-responsive" alt="" src="assets/images/blank.gif" data-echo="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage2']);?>" />
                 </a>
-            </div><!-- /.single-product-gallery-item -->
+            </div>
 
             <div class="single-product-gallery-item" id="slide3">
                 <a data-lightbox="image-1" data-title="Gallery" href="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage3']);?>">
@@ -168,7 +163,7 @@ while($row=mysqli_fetch_array($ret))
                 </a>
             </div>
 
-        </div><!-- /.single-product-slider -->
+        </div>
 
 
         <div class="single-product-gallery-thumbs gallery-thumbs">
@@ -195,7 +190,7 @@ while($row=mysqli_fetch_array($ret))
                
                
                 
-            </div><!-- /#owl-single-product-thumbnails -->
+            </div>
 
             
 
