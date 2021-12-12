@@ -1,5 +1,5 @@
 <?php
-// session_start();
+session_start();
 $phone=$_POST['phone'];
 $password=$_POST['password'];
 $connection=mysqli_connect('localhost','root','','mini_project');
