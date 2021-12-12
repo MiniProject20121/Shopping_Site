@@ -57,16 +57,6 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
      
            
             <ul class="menu-ul">
-<<<<<<< HEAD
-               <a href="#" class="a-menu" id="h"><li>Home</li></a>
-               <a href="decoration_home.html" class="a-menu" id="d"><li>Decoration</li></a>
-               <a href="cloth_home.html" class="a-menu" id="cl"><li>Clothes</li></a>
-               <a href="Appliance_home.html" class="a-menu" id="h"><li>Home-Appliance</li></a>
-               <a href="electronics_home.html" class="a-menu" id="e"><li>Electroincs</li></a>
-               <a href="my-cart.php" class="a-menu" id="c"><li>Cart</li></a>
-               <a href="signin.html" class="menu" id="sign"><li>Sign-In</li></a>
-                
-=======
 
                <li><a href="#" class="a-menu" id="h"><li>Home</li></a></li>
                <?php $sql=mysqli_query($con,"select id,categoryName  from category limit 6");
@@ -78,7 +68,6 @@ while($row=mysqli_fetch_array($sql))
 			
 			</li>
 			<?php } ?>   
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
             </ul>
 
         
