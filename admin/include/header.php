@@ -26,7 +26,7 @@
 							</ul>
 						</li>
 					</ul>
-				</div><!-- /.nav-collapse -->
+				</div>
 			</div>
-		</div><!-- /navbar-inner -->
-	</div><!-- /navbar -->
+</div>
+	</div>

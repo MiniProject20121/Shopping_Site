@@ -15,7 +15,7 @@ if(isset($_POST['submit'])){
 			echo "<script>alert('Your Cart hasbeen Updated');</script>";
 		}
 	}
-// Code for Remove a Product from Cart
+
 if(isset($_POST['remove_code']))
 	{
 
@@ -27,7 +27,7 @@ if(!empty($_SESSION['cart'])){
 			echo "<script>alert('Your Cart has been Updated');</script>";
 	}
 }
-// code for insert product in order table
+
 
 
 if(isset($_POST['ordersubmit'])) 
@@ -124,9 +124,9 @@ header('location:bill-ship-addresses2.php');
 				<li><a href="#">Home</a></li>
 				<li class='active'>Shopping Cart</li>
 			</ul>
-		</div><!-- /.breadcrumb-inner -->
-	</div><!-- /.container -->
-</div><!-- /.breadcrumb -->
+		</div>
+	</div>
+</div>
 
 <div class="body-content outer-top-xs">
 	<div class="container">
@@ -150,7 +150,7 @@ if(!empty($_SESSION['cart'])){
 					<th class="cart-sub-total item">Shipping Charge</th>
 					<th class="cart-total last-item">Grandtotal</th>
 				</tr>
-			</thead><!-- /thead -->
+			</thead>
 			<tfoot>
 				<tr>
 					<td colspan="7">
@@ -159,7 +159,7 @@ if(!empty($_SESSION['cart'])){
 								<a href="index.php" class="btn btn-upper btn-primary outer-left-xs">Continue Shopping</a>
 								<input type="submit" name="submit" value="Update shopping cart" class="btn btn-upper btn-primary pull-right outer-right-xs">
 							</span>
-						</div><!-- /.shopping-cart-btn -->
+						</div>
 					</td>
 				</tr>
 			</tfoot>
@@ -211,7 +211,7 @@ $num=mysqli_num_rows($rt);
 								</div>
 								<?php } ?>
 							</div>
-						</div><!-- /.row -->
+						</div>
 						
 					</td>
 					<td class="cart-product-quantity">
@@ -234,11 +234,11 @@ $num=mysqli_num_rows($rt);
 $_SESSION['pid']=$pdtid;
 				?>
 				
-			</tbody><!-- /tbody -->
-		</table><!-- /table -->
+			</tbody>
+		</table>
 		
 	</div>
-</div><!-- /.shopping-cart-table -->			<div class="col-md-4 col-sm-12 estimate-ship-tax">
+</div>			<div class="col-md-4 col-sm-12 estimate-ship-tax">
 	<table class="table table-bordered">
 		<thead>
 			<tr>
@@ -265,8 +265,8 @@ while ($rt=mysqli_fetch_array($qry)) {
 					
 					</td>
 				</tr>
-		</tbody><!-- /tbody -->
-	</table><!-- /table -->
+		</tbody>
+	</table>
 </div>
 
 <div class="col-md-4 col-sm-12 estimate-ship-tax">
@@ -296,8 +296,8 @@ while ($rt=mysqli_fetch_array($qry)) {
 					
 					</td>
 				</tr>
-		</tbody><!-- /tbody -->
-	</table><!-- /table -->
+		</tbody>
+	</table>
 </div>
 <div class="col-md-4 col-sm-12 cart-shopping-total">
 	<table class="table table-bordered">
@@ -310,7 +310,7 @@ while ($rt=mysqli_fetch_array($qry)) {
 					</div>
 				</th>
 			</tr>
-		</thead><!-- /thead -->
+		</thead>
 		<tbody>
 				<tr>
 					<td>
@@ -320,7 +320,7 @@ while ($rt=mysqli_fetch_array($qry)) {
 						</div>
 					</td>
 				</tr>
-		</tbody><!-- /tbody -->
+		</tbody>
 	</table>
 	<?php } else {
 echo "Your shopping Cart is empty";
@@ -349,7 +349,7 @@ echo "Your shopping Cart is empty";
     <script src="assets/js/wow.min.js"></script>
 	<script src="assets/js/scripts.js"></script>
 
-	<!-- For demo purposes – can be removed on production -->
+	
 	
 	<script src="switchstylesheet/switchstylesheet.js"></script>
 	
@@ -366,6 +366,6 @@ echo "Your shopping Cart is empty";
 		   $('.show-theme-options').delay(2000).trigger('click');
 		});
 	</script>
-	<!-- For demo purposes – can be removed on production : End -->
+	
 </body>
 </html>

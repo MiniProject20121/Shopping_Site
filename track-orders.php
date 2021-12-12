@@ -6,7 +6,7 @@ include('includes/config.php');
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<!-- Meta -->
+		
 		<meta charset="utf-8">
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -39,16 +39,14 @@ include('includes/config.php');
 	
 <header class="header-style-1">
 
-	<!-- ============================================== TOP MENU ============================================== -->
-<?php include('includes/top-header.php');?>
-<!-- ============================================== TOP MENU : END ============================================== -->
 
-	<!-- ============================================== NAVBAR ============================================== -->
+<?php include('includes/top-header.php');?>
+
 <?php include('includes/menu-bar.php');?>
-<!-- ============================================== NAVBAR : END ============================================== -->
+
 
 </header>
-<!-- ============================================== HEADER : END ============================================== -->
+
 <div class="breadcrumb">
 	<div class="container">
 		<div class="breadcrumb-inner">
@@ -56,9 +54,9 @@ include('includes/config.php');
 				<li><a href="home.html">Home</a></li>
 				<li class='active'>Track your orders</li>
 			</ul>
-		</div><!-- /.breadcrumb-inner -->
-	</div><!-- /.container -->
-</div><!-- /.breadcrumb -->
+		</div>
+	</div>
+</div>
 
 <div class="body-content outer-top-bd">
 	<div class="container">
@@ -80,7 +78,7 @@ include('includes/config.php');
 	</form>	
 </div>			</div><!-- /.row -->
 		</div><!-- /.sigin-in-->
-		<!-- ============================================== BRANDS CAROUSEL ============================================== -->
+		
 <div 
 
 </div>
@@ -102,7 +100,6 @@ include('includes/config.php');
     <script src="assets/js/wow.min.js"></script>
 	<script src="assets/js/scripts.js"></script>
 
-	<!-- For demo purposes – can be removed on production -->
 	
 	<script src="switchstylesheet/switchstylesheet.js"></script>
 	
@@ -119,7 +116,7 @@ include('includes/config.php');
 		   $('.show-theme-options').delay(2000).trigger('click');
 		});
 	</script>
-	<!-- For demo purposes – can be removed on production : End -->
+
 
 	
 
