@@ -19,7 +19,7 @@ else{
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<!-- Meta -->
+		
 		<meta charset="utf-8">
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -40,7 +40,7 @@ else{
 		<link rel="stylesheet" href="assets/css/rateit.css">
 		<link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
 
-		<!-- Demo Purpose Only. Should be removed in production -->
+		
 		<link rel="stylesheet" href="assets/css/config.css">
 
 		<link href="assets/css/green.css" rel="alternate stylesheet" title="Green color">
@@ -48,19 +48,19 @@ else{
 		<link href="assets/css/red.css" rel="alternate stylesheet" title="Red color">
 		<link href="assets/css/orange.css" rel="alternate stylesheet" title="Orange color">
 		<link href="assets/css/dark-green.css" rel="alternate stylesheet" title="Darkgreen color">
-		<!-- Demo Purpose Only. Should be removed in production : END -->
+	
 
 		
-		<!-- Icons/Glyphs -->
+	
 		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
-        <!-- Fonts --> 
+        
 		<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
 		
-		<!-- Favicon -->
+	
 		<link rel="shortcut icon" href="assets/images/favicon.ico">
 
-		<!-- HTML5 elements and media queries Support for IE8 : HTML5 shim and Respond.js -->
+	
 		<!--[if lt IE 9]>
 			<script src="assets/js/html5shiv.js"></script>
 			<script src="assets/js/respond.min.js"></script>
@@ -71,13 +71,12 @@ else{
 	
 		
 	
-		<!-- ============================================== HEADER ============================================== -->
 <header class="header-style-1">
 <?php include('includes/top-header.php');?>
 
 <?php include('includes/menu-bar.php');?>
 </header>
-<!-- ============================================== HEADER : END ============================================== -->
+
 <div class="breadcrumb">
 	<div class="container">
 		<div class="breadcrumb-inner">
@@ -85,9 +84,9 @@ else{
 				<li><a href="#">Home</a></li>
 				<li class='active'>Shopping Cart</li>
 			</ul>
-		</div><!-- /.breadcrumb-inner -->
-	</div><!-- /.container -->
-</div><!-- /.breadcrumb -->
+		</div>
+	</div>
+</div>
 
 <div class="body-content outer-top-xs">
 	<div class="container">
@@ -112,7 +111,7 @@ else{
 					<th class="cart-description item">Order Date</th>
 					<th class="cart-total last-item">Action</th>
 				</tr>
-			</thead><!-- /thead -->
+			</thead>
 			
 			<tbody>
 
@@ -163,19 +162,17 @@ while($row=mysqli_fetch_array($query))
 <?php } ?>
 
 		
-			</tbody><!-- /tbody -->
-		</table><!-- /table -->
+			</tbody>
+		</table>
 		
 	</div>
 </div>
 
-		</div><!-- /.shopping-cart -->
-		</div> <!-- /.row -->
+		</div>
+		</div> 
 		</form>
-		<!-- ============================================== BRANDS CAROUSEL ============================================== -->
-
-<!-- ============================================== BRANDS CAROUSEL : END ============================================== -->	</div><!-- /.container -->
-</div><!-- /.body-content -->
+			</div>
+</div>
 <?php include('includes/footer.php');?>
 
 	<script src="assets/js/jquery-1.11.1.min.js"></script>
@@ -194,7 +191,7 @@ while($row=mysqli_fetch_array($query))
     <script src="assets/js/wow.min.js"></script>
 	<script src="assets/js/scripts.js"></script>
 
-	<!-- For demo purposes – can be removed on production -->
+
 	
 	<script src="switchstylesheet/switchstylesheet.js"></script>
 	
@@ -211,7 +208,7 @@ while($row=mysqli_fetch_array($query))
 		   $('.show-theme-options').delay(2000).trigger('click');
 		});
 	</script>
-	<!-- For demo purposes – can be removed on production : End -->
+	
 </body>
 </html>
 <?php } ?>

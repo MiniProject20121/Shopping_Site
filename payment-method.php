@@ -18,7 +18,7 @@ else{
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<!-- Meta -->
+		
 		<meta charset="utf-8">
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -62,9 +62,9 @@ else{
 				<li><a href="home.html">Home</a></li>
 				<li class='active'>Payment Method</li>
 			</ul>
-		</div><!-- /.breadcrumb-inner -->
-	</div><!-- /.container -->
-</div><!-- /.breadcrumb -->
+		</div>
+	</div>
+</div>
 
 <div class="body-content outer-top-bd">
 	<div class="container">
@@ -73,10 +73,10 @@ else{
 				<div class="col-md-12">
 					<h2>Choose Payment Method</h2>
 					<div class="panel-group checkout-steps" id="accordion">
-						<!-- checkout-step-01  -->
+					
 <div class="panel panel-default checkout-step-01">
 
-	<!-- panel-heading -->
+
 		<div class="panel-heading">
     	<h4 class="unicase-checkout-title">
 	        <a data-toggle="collapse" class="" data-parent="#accordion" href="#collapseOne">
@@ -84,11 +84,10 @@ else{
 	        </a>
 	     </h4>
     </div>
-    <!-- panel-heading -->
+  
 
 	<div id="collapseOne" class="panel-collapse collapse in">
 
-		<!-- panel-body  -->
 	    <div class="panel-body">
 	    <form name="payment" method="post">
 	    <input type="radio" name="paymethod" value="COD" checked="checked"> COD
@@ -99,20 +98,19 @@ else{
 
 	    </form>		
 		</div>
-		<!-- panel-body  -->
+		
 
-	</div><!-- row -->
+	</div>
 </div>
-<!-- checkout-step-01  -->
+
 					  
 					  	
-					</div><!-- /.checkout-steps -->
+					</div>
 				</div>
-			</div><!-- /.row -->
-		</div><!-- /.checkout-box -->
-		<!-- ============================================== BRANDS CAROUSEL ============================================== -->
-<!-- ============================================== BRANDS CAROUSEL : END ============================================== -->	</div><!-- /.container -->
-</div><!-- /.body-content -->
+			</div>
+		</div>
+			</div>
+</div>
 <?php include('includes/footer.php');?>
 	<script src="assets/js/jquery-1.11.1.min.js"></script>
 	
@@ -130,7 +128,7 @@ else{
     <script src="assets/js/wow.min.js"></script>
 	<script src="assets/js/scripts.js"></script>
 
-	<!-- For demo purposes – can be removed on production -->
+
 	
 	<script src="switchstylesheet/switchstylesheet.js"></script>
 	
@@ -147,7 +145,6 @@ else{
 		   $('.show-theme-options').delay(2000).trigger('click');
 		});
 	</script>
-	<!-- For demo purposes – can be removed on production : End -->
 
 	
 

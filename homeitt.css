@@ -4,7 +4,7 @@ body{
 }
 
 .parallax{
-    background-image: url('https://images.pexels.com/photos/5632388/pexels-photo-5632388.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-image: url('https://t3.ftcdn.net/jpg/02/96/83/68/360_F_296836811_08NttS3sd2iU1UXmEmxaO1ZkwXKNHkd7.jpg');
     height: max-content;
     background-attachment: fixed;
     background-position: center;
@@ -16,10 +16,10 @@ body{
     background: rgba(0,0,0,0.5 );
     text-align: center;
     color: rgb(106, 233, 2);
-    padding: 76px;
+    padding: 90px;
     font-variant:small-caps ;
     font-family: fantasy;
-    font-size: 70px;
+    font-size: 75px;
 }
 .sticky{
     position: fixed;

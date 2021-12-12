@@ -42,7 +42,7 @@ else
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<!-- Meta -->
+		
 		<meta charset="utf-8">
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -53,10 +53,10 @@ else
 
 	    <title>My Account</title>
 
-	    <!-- Bootstrap Core CSS -->
+	    
 	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	    
-	    <!-- Customizable CSS -->
+	
 	    <link rel="stylesheet" href="assets/css/main.css">
 	    <link rel="stylesheet" href="assets/css/green.css">
 	    <link rel="stylesheet" href="assets/css/owl.carousel.css">
@@ -67,7 +67,7 @@ else
 		<link rel="stylesheet" href="assets/css/rateit.css">
 		<link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
 
-		<!-- Demo Purpose Only. Should be removed in production -->
+	
 		<link rel="stylesheet" href="assets/css/config.css">
 
 		<link href="assets/css/green.css" rel="alternate stylesheet" title="Green color">
@@ -113,15 +113,13 @@ return true;
     <body class="cnt-home">
 <header class="header-style-1">
 
-	<!-- ============================================== TOP MENU ============================================== -->
+
 <?php include('includes/top-header.php');?>
-<!-- ============================================== TOP MENU : END ============================================== -->
-	<!-- ============================================== NAVBAR ============================================== -->
+
 <?php include('includes/menu-bar.php');?>
-<!-- ============================================== NAVBAR : END ============================================== -->
+
 
 </header>
-<!-- ============================================== HEADER : END ============================================== -->
 <div class="breadcrumb">
 	<div class="container">
 		<div class="breadcrumb-inner">
@@ -129,9 +127,9 @@ return true;
 				<li><a href="#">Home</a></li>
 				<li class='active'>Checkout</li>
 			</ul>
-		</div><!-- /.breadcrumb-inner -->
-	</div><!-- /.container -->
-</div><!-- /.breadcrumb -->
+		</div>
+	</div>
+</div>
 
 <div class="body-content outer-top-bd">
 	<div class="container">
@@ -139,10 +137,10 @@ return true;
 			<div class="row">
 				<div class="col-md-8">
 					<div class="panel-group checkout-steps" id="accordion">
-						<!-- checkout-step-01  -->
+					
 <div class="panel panel-default checkout-step-01">
 
-	<!-- panel-heading -->
+
 		<div class="panel-heading">
     	<h4 class="unicase-checkout-title">
 	        <a data-toggle="collapse" class="" data-parent="#accordion" href="#collapseOne">
@@ -150,11 +148,11 @@ return true;
 	        </a>
 	     </h4>
     </div>
-    <!-- panel-heading -->
+   
 
 	<div id="collapseOne" class="panel-collapse collapse in">
 
-		<!-- panel-body  -->
+		
 	    <div class="panel-body">
 			<div class="row">		
 <h4>Personal info</h4>
@@ -186,16 +184,15 @@ while($row=mysqli_fetch_array($query))
 					</form>
 					<?php } ?>
 				</div>	
-				<!-- already-registered-login -->		
+					
 
 			</div>			
 		</div>
-		<!-- panel-body  -->
+		
 
-	</div><!-- row -->
+	</div>
 </div>
-<!-- checkout-step-01  -->
-					    <!-- checkout-step-02  -->
+
 					  	<div class="panel panel-default checkout-step-02">
 						    <div class="panel-heading">
 						      <h4 class="unicase-checkout-title">
@@ -232,13 +229,13 @@ while($row=mysqli_fetch_array($query))
 						      </div>
 						    </div>
 					  	</div>
-					  	<!-- checkout-step-02  -->
+					 
 					  	
-					</div><!-- /.checkout-steps -->
+					</div>
 				</div>
 			<?php include('includes/myaccount-sidebar.php');?>
-			</div><!-- /.row -->
-		</div><!-- /.checkout-box -->
+			</div>
+		</div>
 
 
 </div>
@@ -260,7 +257,7 @@ while($row=mysqli_fetch_array($query))
     <script src="assets/js/wow.min.js"></script>
 	<script src="assets/js/scripts.js"></script>
 
-	<!-- For demo purposes – can be removed on production -->
+	
 	
 	<script src="switchstylesheet/switchstylesheet.js"></script>
 	
