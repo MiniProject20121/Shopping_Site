@@ -15,11 +15,6 @@ if(isset($_POST['submit'])){
 			echo "<script>alert('Your Cart hasbeen Updated');</script>";
 		}
 	}
-<<<<<<< HEAD
-// Code for Remove a Product from Cart
-=======
-
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 if(isset($_POST['remove_code']))
 	{
 
@@ -31,11 +26,6 @@ if(!empty($_SESSION['cart'])){
 			echo "<script>alert('Your Cart has been Updated');</script>";
 	}
 }
-<<<<<<< HEAD
-// code for insert product in order table
-=======
-
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 
 
 if(isset($_POST['ordersubmit'])) 
@@ -121,11 +111,6 @@ header('location:bill-ship-addresses2.php');
 		
 <header class="header-style-1">
 <?php include('includes/top-header.php');?>
-<<<<<<< HEAD
-<?php include('includes/main-header.php');?>
-=======
-
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 <?php include('includes/menu-bar.php');?>
 </header>
 
@@ -136,15 +121,9 @@ header('location:bill-ship-addresses2.php');
 				<li><a href="#">Home</a></li>
 				<li class='active'>Shopping Cart</li>
 			</ul>
-<<<<<<< HEAD
-		</div><!-- /.breadcrumb-inner -->
-	</div><!-- /.container -->
-</div><!-- /.breadcrumb -->
-=======
 		</div>
 	</div>
 </div>
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 
 <div class="body-content outer-top-xs">
 	<div class="container">
@@ -168,11 +147,7 @@ if(!empty($_SESSION['cart'])){
 					<th class="cart-sub-total item">Shipping Charge</th>
 					<th class="cart-total last-item">Grandtotal</th>
 				</tr>
-<<<<<<< HEAD
-			</thead><!-- /thead -->
-=======
 			</thead>
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 			<tfoot>
 				<tr>
 					<td colspan="7">
@@ -181,11 +156,7 @@ if(!empty($_SESSION['cart'])){
 								<a href="index.php" class="btn btn-upper btn-primary outer-left-xs">Continue Shopping</a>
 								<input type="submit" name="submit" value="Update shopping cart" class="btn btn-upper btn-primary pull-right outer-right-xs">
 							</span>
-<<<<<<< HEAD
-						</div><!-- /.shopping-cart-btn -->
-=======
 						</div>
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 					</td>
 				</tr>
 			</tfoot>
@@ -237,11 +208,7 @@ $num=mysqli_num_rows($rt);
 								</div>
 								<?php } ?>
 							</div>
-<<<<<<< HEAD
-						</div><!-- /.row -->
-=======
 						</div>
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 						
 					</td>
 					<td class="cart-product-quantity">
@@ -264,19 +231,11 @@ $num=mysqli_num_rows($rt);
 $_SESSION['pid']=$pdtid;
 				?>
 				
-<<<<<<< HEAD
-			</tbody><!-- /tbody -->
-		</table><!-- /table -->
-		
-	</div>
-</div><!-- /.shopping-cart-table -->			<div class="col-md-4 col-sm-12 estimate-ship-tax">
-=======
 			</tbody>
 		</table>
 		
 	</div>
 </div>			<div class="col-md-4 col-sm-12 estimate-ship-tax">
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 	<table class="table table-bordered">
 		<thead>
 			<tr>
@@ -303,13 +262,8 @@ while ($rt=mysqli_fetch_array($qry)) {
 					
 					</td>
 				</tr>
-<<<<<<< HEAD
-		</tbody><!-- /tbody -->
-	</table><!-- /table -->
-=======
 		</tbody>
 	</table>
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 </div>
 
 <div class="col-md-4 col-sm-12 estimate-ship-tax">
@@ -339,13 +293,8 @@ while ($rt=mysqli_fetch_array($qry)) {
 					
 					</td>
 				</tr>
-<<<<<<< HEAD
-		</tbody><!-- /tbody -->
-	</table><!-- /table -->
-=======
 		</tbody>
 	</table>
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 </div>
 <div class="col-md-4 col-sm-12 cart-shopping-total">
 	<table class="table table-bordered">
@@ -358,11 +307,7 @@ while ($rt=mysqli_fetch_array($qry)) {
 					</div>
 				</th>
 			</tr>
-<<<<<<< HEAD
-		</thead><!-- /thead -->
-=======
 		</thead>
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 		<tbody>
 				<tr>
 					<td>
@@ -372,11 +317,7 @@ while ($rt=mysqli_fetch_array($qry)) {
 						</div>
 					</td>
 				</tr>
-<<<<<<< HEAD
-		</tbody><!-- /tbody -->
-=======
 		</tbody>
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 	</table>
 	<?php } else {
 echo "Your shopping Cart is empty";
@@ -384,11 +325,6 @@ echo "Your shopping Cart is empty";
 </div>			</div>
 		</div> 
 		</form>
-<<<<<<< HEAD
-<?php echo include('includes/brands-slider.php');?>
-=======
-
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 </div>
 </div>
 <?php include('includes/footer.php');?>
@@ -409,11 +345,7 @@ echo "Your shopping Cart is empty";
     <script src="assets/js/wow.min.js"></script>
 	<script src="assets/js/scripts.js"></script>
 
-<<<<<<< HEAD
-	<!-- For demo purposes – can be removed on production -->
-=======
 	
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 	
 	<script src="switchstylesheet/switchstylesheet.js"></script>
 	
@@ -430,10 +362,6 @@ echo "Your shopping Cart is empty";
 		   $('.show-theme-options').delay(2000).trigger('click');
 		});
 	</script>
-<<<<<<< HEAD
-	<!-- For demo purposes – can be removed on production : End -->
-=======
 	
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 </body>
 </html>
