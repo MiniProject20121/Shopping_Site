@@ -1,7 +1,6 @@
 body{
     margin:0;
     font-family: system-ui;
-    background-color: #073a34;
 }
 
 .parallax{
@@ -38,18 +37,15 @@ body{
     padding: 0;
     display: inline;
     font-family: sans-serif;
-    color: black;
 }
 .menu-ul li{
     font-size: 17px;
     list-style: none;
     display: inline-block;
     padding: 25px 25px 25px 25px;
-    color: black;
 }
 .a.menu{
     text-decoration: none;
-    color:black;
 }
 .menu-ul li:hover{
     background: #325232;
