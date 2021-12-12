@@ -1,3 +1,16 @@
+<?php
+session_start();
+error_reporting(0);
+include('includes/config.php');
+if(isset($_GET['action']) && $_GET['action']=="add"){
+	$id=intval($_GET['id']);
+	if(isset($_SESSION['cart'][$id])){
+		$_SESSION['cart'][$id]['quantity']++;
+	}
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +20,12 @@
 
     <title>TechMart-Shopping</title>
     <link rel="stylesheet" href="homeitt.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    
+	    
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	    <link rel="stylesheet" href="assets/css/main.css">
+	    <link rel="stylesheet" href="assets/css/green.css">
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
     <script>
         function stickyMenu(){
@@ -25,13 +43,20 @@
 
 </head>
 <body>
+
+<header class="header-style-1">
+<?php include('includes/top-header.php');?>
+</header>
+
     <div class="parallax">
         <div class="page-title">
             TechMart-Shopping </div>
     </div>
         <div class="menu" id="sticky">
+     
            
             <ul class="menu-ul">
+<<<<<<< HEAD
                <a href="#" class="a-menu" id="h"><li>Home</li></a>
                <a href="decoration_home.html" class="a-menu" id="d"><li>Decoration</li></a>
                <a href="cloth_home.html" class="a-menu" id="cl"><li>Clothes</li></a>
@@ -40,45 +65,42 @@
                <a href="my-cart.php" class="a-menu" id="c"><li>Cart</li></a>
                <a href="signin.html" class="menu" id="sign"><li>Sign-In</li></a>
                 
+=======
+
+               <li><a href="#" class="a-menu" id="h"><li>Home</li></a></li>
+               <?php $sql=mysqli_query($con,"select id,categoryName  from category limit 6");
+while($row=mysqli_fetch_array($sql))
+{
+    ?>
+    <li>
+				<a class="a-menu" href="category.php?cid=<?php echo $row['id'];?>"> <?php echo $row['categoryName'];?></a>
+			
+			</li>
+			<?php } ?>   
+>>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
             </ul>
 
         
     </div>
     <div class="container">
-    <a href="electronics_home.php">
+    <?php $sql=mysqli_query($con,"select id,categoryName  from category limit 6");
+while($row=mysqli_fetch_array($sql))
+{
+    ?>
         <div class="categories">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6GBqdk9o1hqpJtH1uOq0aXtAAxLzRngufNZR-W48vfanADcqEgoLhvaHVt9t1v8GLlXo&usqp=CAU" class="item.image" >
-            <div class="image-title">Electroincs</div>
+            <img  src="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="admin/productimages/<?php echo htmlentities($row['productImage1']);?>"  width="180" height="300" alt=""></a><br>
+            <a class="a-menu" href="category.php?cid=<?php echo $row['id'];?>"> <?php echo $row['categoryName'];?>
         </div>
+        <?php } ?>
 
-    </a>
-    <a href="decoration_home.html">
-        <div class="categories">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzf6SiTr3lWJiDEOOHKzISKJuiZZpVXOYnyQ&usqp=CAU" class="item.image" >
-            <div class="image-title">Decoration</div>
-        </div>
-
-    </a>
-    <a href="cloth_home.html">
-        <div class="categories">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOWkJ9tM9xsXiRCXqbrBK9lgdT0zcjZokMT_LQ_GjvYpUUnOBUfgN9gq6l-s8T5msmBaQ&usqp=CAU" class="item.image" >
-            <div class="image-title">Clothes</div>
-        </div>
-
-    </a>
-    <a href="Appliance_home.html">
-        <div class="categories">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs1RYHqSVDDIa-z64KSF6c1mmHL-7Vr_yh6xDIV4bY8qBe40FkR-nbx9him3Rp-nkxhXI&usqp=CAU" class="item.image" >
-            <div class="image-title">Home-Appliance</div>
-        </div>
-
-    </a>
+    
+    
 
    
 </div>
-<div><a href="">ChatBox</a></div>
+<div><a href=""></a></div>
 
-<?php include('footer.html');?>
+<?php include('includes/footer.html');?>
 </body>
 </html>
 

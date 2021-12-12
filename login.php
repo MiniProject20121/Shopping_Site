@@ -1,10 +1,52 @@
+<?php
+session_start();
+error_reporting(0);
+include('includes/config.php');
+if(isset($_POST['login']))
+{
+   $email=$_POST['email'];
+   $password=md5($_POST['password']);
+$query=mysqli_query($con,"SELECT * FROM users WHERE email='$email' and password='$password'");
+$num=mysqli_fetch_array($query);
+if($num>0)
+{
+$extra="index.php";
+$_SESSION['login']=$_POST['email'];
+$_SESSION['id']=$num['id'];
+$_SESSION['username']=$num['name'];
+$uip=$_SERVER['REMOTE_ADDR'];
+$status=1;
+$log=mysqli_query($con,"insert into userlog(userEmail,userip,status) values('".$_SESSION['login']."','$uip','$status')");
+$host=$_SERVER['HTTP_HOST'];
+$uri=rtrim(dirname($_SERVER['PHP_SELF']),'/\\');
+header("location:http://$host$uri/$extra");
+exit();
+}
+else
+{
+$extra="login.php";
+$email=$_POST['email'];
+$uip=$_SERVER['REMOTE_ADDR'];
+$status=0;
+$log=mysqli_query($con,"insert into userlog(userEmail,userip,status) values('$email','$uip','$status')");
+$host  = $_SERVER['HTTP_HOST'];
+$uri  = rtrim(dirname($_SERVER['PHP_SELF']),'/\\');
+header("location:http://$host$uri/$extra");
+$_SESSION['errmsg']="Invalid email id or Password";
+exit();
+}
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forgot Password</title>
+    <title>SIGN-IN</title>
     <style>
         html{
             overflow: hidden;
@@ -22,10 +64,10 @@
         }
         .loginbox{
             width: 350px;
-            height:500px;
+            height:430px;
             background: rgb(253, 206, 206);
             color: rgb(179, 48, 48);
-            top: 5% ;
+            top: 12% ;
             left:40%;
             position:absolute;
             translate: translate(-50%,-50%);
@@ -98,26 +140,25 @@
 
     </style>
 </head>
+
 <body>
-    <form action="forgot_password.php" method="POST">
+    <form action="" method="POST">
     <div class="loginbox">
         <img src="https://icon-library.com/images/log-on-icon/log-on-icon-8.jpg" alt="" class="avatar">
-        <h1>Forgot Password</h1><br>
+        <h1>SIGN-IN</h1><br>
         
 
-            <p>Mobile No.</p>
-            <input type="text" name="mobile_no" placeholder="Enter Mobile No." required>
+            <p>Email-ID</p>
+            <input type="text" name="email" placeholder="Enter Email-ID" required>
             <p>Password</p>
             <input type="password" name="password" placeholder="Enter Password" required >
-            <p>Confirm Password</p>
-            <input type="password" name="password_confirm" placeholder="Enter Confirm Password" required >
             <br><br>
-            <input type="submit" value="Submit" id="">
+            <input type="submit" value="SIGN-IN" name="login">
 
-            <a href="signin.html">SIGN-IN </a><br>
+            <a href="forgot-password.php"> Forgot your password? </a><br>
             <p>or</p>
-            <a href="signup.html">Dont have Account? <br>SIGN-UP</a><br>
-            <!-- <a href="/signup.html">SIGN-UP</a> -->
+            <a href="signup.php">Don't have an Account? <br>SIGN-UP</a><br>
+            <a href="index.php">Home</a>
         </div>
     </form>
 </body>

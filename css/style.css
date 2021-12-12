@@ -270,7 +270,11 @@ li.purple .box-dropdown:after{
 
 .box-dropdown .box-wrapper{
 	border-top:3px solid #34495e;
+<<<<<<< HEAD
 	background:#fff;
+=======
+	background:rgb(0, 0, 0);
+>>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 	overflow:hidden;
 	display:block;
 	position:relative;
@@ -311,7 +315,11 @@ li.purple .box-dropdown:after{
 	font-size:14px !important;
 	text-transform:uppercase;
 	padding:10px 20px;
+<<<<<<< HEAD
 	color:#fff!important;	
+=======
+	color:rgb(0, 0, 0)!important;	
+>>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 	margin-left:2px;
 }
 
@@ -385,6 +393,7 @@ li.purple .box-dropdown:after{
 
 
 
+<<<<<<< HEAD
 /* Main Header */
 
 #logo{
@@ -594,6 +603,8 @@ span.quantity{
 .no-border{
 	border:none!important;	
 }
+=======
+>>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 
 
 
@@ -845,6 +856,7 @@ span.nav-description{
 
 
 
+<<<<<<< HEAD
 /* ========================= */
 /*        SEARCH BOX         */
 /* ========================= */
@@ -1052,6 +1064,8 @@ span.grey{
 
 
 
+=======
+>>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 
 
 
@@ -5018,6 +5032,7 @@ input[type="checkbox"]:checked + label:before{
 		padding:40px;
 	}
 	
+<<<<<<< HEAD
 	#search-bar{
 		background:transparent;
 		position:relative;
@@ -5055,6 +5070,8 @@ input[type="checkbox"]:checked + label:before{
 	}
 }
 
+=======
+>>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 
 
 @media screen and (max-width: 350px) {
@@ -5078,4 +5095,8 @@ input[type="checkbox"]:checked + label:before{
   .tinynav { display: block; width:100%!important;}
   #main-navigation>ul { display: none }
   
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053

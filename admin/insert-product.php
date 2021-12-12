@@ -22,7 +22,7 @@ if(isset($_POST['submit']))
 	$productimage1=$_FILES["productimage1"]["name"];
 	$productimage2=$_FILES["productimage2"]["name"];
 	$productimage3=$_FILES["productimage3"]["name"];
-//for getting product id
+
 $query=mysqli_query($con,"select max(id) as pid from products");
 	$result=mysqli_fetch_array($query);
 	 $productid=$result['pid']+1;
@@ -228,11 +228,11 @@ while($row=mysqli_fetch_array($query))
 	
 						
 						
-					</div><!--/.content-->
-				</div><!--/.span9-->
+					</div>
+				</div>
 			</div>
-		</div><!--/.container-->
-	</div><!--/.wrapper-->
+		</div>
+	</div>
 
 <?php include('include/footer.php');?>
 
