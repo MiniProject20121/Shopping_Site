@@ -1,11 +1,11 @@
 <?php 
-<<<<<<< HEAD
+
 //session_start();
 
-=======
+
 // session_start();
 // include('includes/config.php');
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
+
 ?>
 
 <div class="top-bar animate-dropdown">
@@ -25,16 +25,6 @@
 					<li><a href="#"><i class="icon fa fa-key"></i>Checkout</a></li>
 					<?php if(strlen($_SESSION['login'])==0)
     {   ?>
-<<<<<<< HEAD
-<li><a href="signin.html"><i class="icon fa fa-sign-in"></i>Login</a></li>
-<?php }
-else{ ?>
-	
-				<li><a href="logout.php"><i class="icon fa fa-sign-out"></i>Logout</a></li>
-				<?php } ?>	
-				</ul>
-			</div><!-- /.cnt-account -->
-=======
 <li><a href="login.php"><i class="icon fa fa-sign-in"></i>SignIn</a></li>
 <?php }
 else{ ?>
@@ -43,7 +33,6 @@ else{ ?>
 				<?php } ?>	
 				</ul>
 			</div>
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 
 <div class="cnt-block">
 				<ul class="list-unstyled list-inline">
@@ -57,12 +46,6 @@ else{ ?>
 			</div>
 			
 			<div class="clearfix"></div>
-<<<<<<< HEAD
-		</div><!-- /.header-top-inner -->
-	</div><!-- /.container -->
-</div><!-- /.header-top -->
-=======
 		</div>
 	</div>
 </div>
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
