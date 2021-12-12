@@ -20,24 +20,16 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 
     <title>TechMart-Shopping</title>
     <link rel="stylesheet" href="homeitt.css">
-    
-	    <!-- Bootstrap Core CSS -->
 	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	    
-	    <!-- Customizable CSS -->
 	    <link rel="stylesheet" href="assets/css/main.css">
 	    <link rel="stylesheet" href="assets/css/green.css">
 	    <link rel="stylesheet" href="assets/css/owl.carousel.css">
 		<link rel="stylesheet" href="assets/css/owl.transitions.css">
-		<!--<link rel="stylesheet" href="assets/css/owl.theme.css">-->
 		<link href="assets/css/lightbox.css" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/animate.min.css">
 		<link rel="stylesheet" href="assets/css/rateit.css">
 		<link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
-
-		<!-- Demo Purpose Only. Should be removed in production -->
 		<link rel="stylesheet" href="assets/css/config.css">
-
 		<link href="assets/css/green.css" rel="alternate stylesheet" title="Green color">
 		<link href="assets/css/blue.css" rel="alternate stylesheet" title="Blue color">
 		<link href="assets/css/red.css" rel="alternate stylesheet" title="Red color">
@@ -45,8 +37,6 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 		<link href="assets/css/dark-green.css" rel="alternate stylesheet" title="Darkgreen color">
 		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 		<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
-		
-		<!-- Favicon -->
 		<link rel="shortcut icon" href="assets/images/favicon.ico">
 
 	
@@ -130,12 +120,8 @@ while ($row=mysqli_fetch_array($ret))
 			<div class="image">
 				<a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>">
 				<img  src="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>"  width="180" height="300" alt=""></a>
-			</div><!-- /.image -->			
-
-			                        		   
-		</div><!-- /.product-image -->
-			
-		
+			</div>                  		   
+		</div>
 		<div class="product-info text-left">
 			<h3 class="name"><a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>"><?php echo htmlentities($row['productName']);?></a></h3>
 			<div class="rating rateit-small"></div>
@@ -146,18 +132,18 @@ while ($row=mysqli_fetch_array($ret))
 					Rs.<?php echo htmlentities($row['productPrice']);?>			</span>
 										     <span class="price-before-discount">Rs.<?php echo htmlentities($row['productPriceBeforeDiscount']);?>	</span>
 									
-			</div><!-- /.product-price -->
+			</div>
 			
-		</div><!-- /.product-info -->
+		</div>
 					<div class="action"><a href="index.php?page=product&action=add&id=<?php echo $row['id']; ?>" class="lnk btn btn-primary">Add to Cart</a></div>
-			</div><!-- /.product -->
+			</div>
       
-			</div><!-- /.products -->
-		</div><!-- /.item -->
+			</div>
+		</div>
 	<?php } ?>
 
-			</div><!-- /.home-owl-carousel -->
-					</div><!-- /.product-slider -->
+			</div>
+					</div>
 				</div>
 
 
@@ -181,10 +167,10 @@ while ($row=mysqli_fetch_array($ret))
 			<div class="image">
 				<a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>">
 				<img  src="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>"  width="180" height="300" alt=""></a>
-			</div><!-- /.image -->			
+			</div>			
 
 			                        		   
-		</div><!-- /.product-image -->
+		</div>
 			
 		
 		<div class="product-info text-left">
@@ -197,13 +183,13 @@ while ($row=mysqli_fetch_array($ret))
 					Rs. <?php echo htmlentities($row['productPrice']);?>			</span>
 										     <span class="price-before-discount">Rs.<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>
 									
-			</div><!-- /.product-price -->
+			</div>
 			
-		</div><!-- /.product-info -->
+		</div>
 					<div class="action"><a href="index.php?page=product&action=add&id=<?php echo $row['id']; ?>" class="lnk btn btn-primary">Add to Cart</a></div>
-			</div><!-- /.product -->
+			</div>
       
-			</div><!-- /.products -->
+			</div>
 		</div><!-- /.item -->
 	<?php } ?>
 	
@@ -429,7 +415,7 @@ while ($row=mysqli_fetch_array($ret))
 
 </div>
 </div>
-<?php include('includes/footer.html');?>
+<?php include('includes/footer.php');?>
 	
 	<script src="assets/js/jquery-1.11.1.min.js"></script>
 	

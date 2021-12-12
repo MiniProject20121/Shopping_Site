@@ -29,11 +29,7 @@ while($row=mysqli_fetch_array($sql))
 			<?php } ?>
 
 			
-<<<<<<< HEAD
-		</ul><!-- /.navbar-nav -->
-=======
 		</ul>
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 		<div class="clearfix"></div>				
 	</div>
 </div>
