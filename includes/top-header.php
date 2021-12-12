@@ -20,11 +20,11 @@
 					<li><a href="#"><i class="icon fa fa-key"></i>Checkout</a></li>
 					<?php if(strlen($_SESSION['login'])==0)
     {   ?>
-<li><a href="login.php"><i class="icon fa fa-sign-in"></i>Login</a></li>
+<li><a href="login.php"><i class="icon fa fa-sign-in"></i>SignIn</a></li>
 <?php }
 else{ ?>
 	
-				<li><a href="logout.php"><i class="icon fa fa-sign-out"></i>Logout</a></li>
+				<li><a href="logout.php"><i class="icon fa fa-sign-out"></i>Sign Out</a></li>
 				<?php } ?>	
 				</ul>
 			</div>

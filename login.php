@@ -149,15 +149,15 @@ exit();
         
 
             <p>Email-ID</p>
-            <input type="text" name="email" placeholder="Enter Email ID" required>
+            <input type="text" name="email" placeholder="Enter Email-ID" required>
             <p>Password</p>
             <input type="password" name="password" placeholder="Enter Password" required >
             <br><br>
             <input type="submit" value="SIGN-IN" name="login">
 
-            <a href="forgot-password.php">Lost your password? </a><br>
+            <a href="forgot-password.php"> Forgot your password? </a><br>
             <p>or</p>
-            <a href="signup.php">Dont have Account? <br>SIGN-UP</a><br>
+            <a href="signup.php">Don't have an Account? <br>SIGN-UP</a><br>
             <a href="index.php">Home</a>
         </div>
     </form>
