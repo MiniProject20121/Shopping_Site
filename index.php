@@ -95,7 +95,7 @@ while($row=mysqli_fetch_array($sql))
 					<li class="active"><a href="#all" data-toggle="tab">All</a></li>
 					<li><a href="#books" data-toggle="tab">Books</a></li>
 					<li><a href="#furniture" data-toggle="tab">Furniture</a></li>
-				</ul><!-- /.nav-tabs -->
+				</ul>
 			</div>
 
 			<div class="tab-content outer-top-xs">
@@ -106,7 +106,7 @@ while($row=mysqli_fetch_array($sql))
 $ret=mysqli_query($con,"select * from products");
 while ($row=mysqli_fetch_array($ret)) 
 {
-	# code...
+
 
 
 ?>
@@ -190,12 +190,12 @@ while ($row=mysqli_fetch_array($ret))
 			</div>
       
 			</div>
-		</div><!-- /.item -->
+		</div>
 	<?php } ?>
 	
 		
-								</div><!-- /.home-owl-carousel -->
-					</div><!-- /.product-slider -->
+								</div>
+					</div>
 				</div>
 
 
@@ -253,9 +253,6 @@ while ($row=mysqli_fetch_array($ret))
 				</div>
 			</div>
 		</div>
-		    
-
-         <!-- ============================================== TABS ============================================== -->
 			<div class="sections prod-slider-small outer-top-small">
 				<div class="row">
 					<div class="col-md-6">
@@ -278,8 +275,8 @@ while ($row=mysqli_fetch_array($ret))
 		<div class="product-image">
 			<div class="image">
 				<a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>"><img  src="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>"  width="180" height="300"></a>
-			</div><!-- /.image -->			                        		   
-		</div><!-- /.product-image -->
+			</div>			                        		   
+		</div>
 			
 		
 		<div class="product-info text-left">
@@ -324,8 +321,8 @@ while ($row=mysqli_fetch_array($ret))
 		<div class="product-image">
 			<div class="image">
 				<a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>"><img  src="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>"  width="300" height="300"></a>
-			</div><!-- /.image -->			                        		   
-		</div><!-- /.product-image -->
+			</div>			                        		   
+		</div>
 			
 		
 		<div class="product-info text-left">
@@ -355,10 +352,6 @@ while ($row=mysqli_fetch_array($ret))
 					</div>
 				</div>
 			</div>
-		<!-- ============================================== TABS : END ============================================== -->
-
-		
-
 	<section class="section featured-product inner-xs wow fadeInUp">
 		<h3 class="section-title">Fashion</h3>
 		<div class="owl-carousel best-seller custom-carousel owl-theme outer-top-xs">
@@ -366,8 +359,6 @@ while ($row=mysqli_fetch_array($ret))
 $ret=mysqli_query($con,"select * from products where category=6");
 while ($row=mysqli_fetch_array($ret)) 
 {
-	# code...
-
 
 ?>
 				<div class="item">
@@ -386,10 +377,10 @@ while ($row=mysqli_fetch_array($ret))
 													<img data-echo="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" width="170" height="174" alt="">
 													<div class="zoom-overlay"></div>
 												</a>					
-											</div><!-- /.image -->
+											</div>
 
-										</div><!-- /.product-image -->
-									</div><!-- /.col -->
+										</div>
+									</div>
 									<div class="col col-xs-6">
 										<div class="product-info">
 											<h3 class="name"><a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>"><?php echo htmlentities($row['productName']);?></a></h3>
@@ -399,12 +390,12 @@ while ($row=mysqli_fetch_array($ret))
 													Rs. <?php echo htmlentities($row['productPrice']);?>
 												</span>
 
-											</div><!-- /.product-price -->
+											</div>
 											<div class="action"><a href="index.php?page=product&action=add&id=<?php echo $row['id']; ?>" class="lnk btn btn-primary">Add To Cart</a></div>
 										</div>
-									</div><!-- /.col -->
-								</div><!-- /.product-micro-row -->
-							</div><!-- /.product-micro -->
+									</div>
+								</div>
+							</div>
 						</div>
 
 
@@ -431,10 +422,7 @@ while ($row=mysqli_fetch_array($ret))
     <script type="text/javascript" src="assets/js/lightbox.min.js"></script>
     <script src="assets/js/bootstrap-select.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
-	<script src="assets/js/scripts.js"></script>
-
-	<!-- For demo purposes – can be removed on production -->
-	
+	<script src="assets/js/scripts.js"></script>	
 	<script src="switchstylesheet/switchstylesheet.js"></script>
 	
 	<script>

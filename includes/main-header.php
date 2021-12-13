@@ -16,11 +16,6 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-3 logo-holder">
-<<<<<<< HEAD
-					<!-- ============================================================= LOGO ============================================================= -->
-=======
-
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 <div class="logo">
 	<a href="index.php">
 		
@@ -43,19 +38,11 @@
 
         </div>
     </form>
-<<<<<<< HEAD
-</div><!-- /.search-area -->
-<!-- ============================================================= SEARCH AREA : END ============================================================= -->				</div><!-- /.top-search-holder -->
-
-				<div class="col-xs-12 col-sm-12 col-md-3 animate-dropdown top-cart-row">
-					<!-- ============================================================= SHOPPING CART DROPDOWN ============================================================= -->
-=======
 </div>
 			</div>
 
 				<div class="col-xs-12 col-sm-12 col-md-3 animate-dropdown top-cart-row">
 					
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 <?php
 if(!empty($_SESSION['cart'])){
 	?>
@@ -112,11 +99,7 @@ if(!empty($_SESSION['cart'])){
 						</div>
 						
 					</div>
-<<<<<<< HEAD
-				</div><!-- /.cart-item -->
-=======
 				</div>
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 			
 				<?php } }?>
 				<div class="clearfix"></div>
@@ -132,21 +115,12 @@ if(!empty($_SESSION['cart'])){
 				<div class="clearfix"></div>
 					
 				<a href="my-cart.php" class="btn btn-upper btn-primary btn-block m-t-20">My Cart</a>	
-<<<<<<< HEAD
-			</div><!-- /.cart-total-->
-					
-				
-		</li>
-		</ul><!-- /.dropdown-menu-->
-	</div><!-- /.dropdown-cart -->
-=======
 			</div>
 					
 				
 		</li>
 		</ul>
 	</div>
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 <?php } else { ?>
 <div class="dropdown dropdown-cart">
 		<a href="#" class="dropdown-toggle lnk-cart" data-toggle="dropdown">
@@ -179,11 +153,7 @@ if(!empty($_SESSION['cart'])){
 						
 						
 					</div>
-<<<<<<< HEAD
-				</div><!-- /.cart-item -->
-=======
 				</div>
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 			
 				
 			<hr>
@@ -193,35 +163,20 @@ if(!empty($_SESSION['cart'])){
 				<div class="clearfix"></div>
 					
 				<a href="index.php" class="btn btn-upper btn-primary btn-block m-t-20">Continue Shooping</a>	
-<<<<<<< HEAD
-			</div><!-- /.cart-total-->
-					
-				
-		</li>
-		</ul><!-- /.dropdown-menu-->
-=======
 			</div>
 					
 				
 		</li>
 		</ul>
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 	</div>
 	<?php }?>
 
 
 
 
-<<<<<<< HEAD
-<!-- ============================================================= SHOPPING CART DROPDOWN : END============================================================= -->				</div><!-- /.top-cart-row -->
-			</div><!-- /.row -->
-
-		</div><!-- /.container -->
-=======
 				</div>
 			</div>
 
 		</div>
->>>>>>> 549488f6ca7216bd8cb53a137d5d3246f346c053
 
 	</div>
