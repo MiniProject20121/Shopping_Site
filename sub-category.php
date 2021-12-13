@@ -79,11 +79,6 @@ header('location:my-wishlist.php');
 	
 		<link rel="shortcut icon" href="assets/images/favicon.ico">
 
-		<!-- HTML5 elements and media queries Support for IE8 : HTML5 shim and Respond.js -->
-		<!--[if lt IE 9]>
-			<script src="assets/js/html5shiv.js"></script>
-			<script src="assets/js/respond.min.js"></script>
-		<![endif]-->
 
 	</head>
     <body class="cnt-home">
