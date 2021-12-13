@@ -1,0 +1,171 @@
+*
+{
+    margin: 0;
+}
+body
+{
+    background: #282c34;
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.msgContainer
+{
+    position: relative;
+    width: 100%;
+
+}
+
+
+
+#messages
+{
+    position: fixed;
+    width: 100%;
+   
+
+    top: 15px;
+
+    overflow: auto;
+}
+
+.right
+{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #40996F;
+
+
+    display: inline-block;
+
+    position: absolute;
+    right: 10px;
+
+ 
+    border-radius: 10px;
+    border-top-right-radius: 0;
+
+
+    max-width: 85%;
+    height: auto;
+
+    overflow-wrap: break-word;
+
+    font-size: 15px;
+
+
+
+}
+
+.left
+{
+     padding: 10px;
+     padding-left: 18px;
+     padding-right: 15px;
+     background: #CCCCCC;
+     display: inline-block;
+
+     position: absolute;
+     left: 10px;
+
+
+     max-width: 85%;
+
+     border-radius: 10px;
+     border-top-left-radius: 0;
+
+     
+     
+     font-size: 15px;
+
+}
+
+#inputSystem
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border:none;
+    border-top: 1px solid #8B8B8B;
+    background:#282c34;
+
+    width: 100%;
+    height: 35px;
+    
+    
+
+}
+
+#msg
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+
+    border:none;
+  
+    padding-left: 20px;
+    background:#282c34;
+
+    /*#585858*/
+    color: #fff;
+}
+#msg:focus
+{
+    outline: none;
+}
+
+#msg::-webkit-input-placeholder
+{
+    color:rgb(230, 226, 222);
+}
+
+#msg::-moz-placeholder
+{
+    color:rgb(230, 226, 222);
+}
+#messages::-webkit-scrollbar
+{
+    background: rgba(255,255,255,0.3);
+    width: 5px;
+}
+#messages::-webkit-scrollbar-thumb
+{
+    background: rgba(255,255,255,0.2);
+   
+}
+
+
+
+#sendIcon
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+#sendIcon:hover
+{
+    border-radius: 5%;
+    background-color: rgba(0,0,0,0.3);
+    padding-left: 5px;
+
+}
+iframe
+{
+    box-shadow: 1px 0 5px 1px rgba(255,255,255,0.45);
+    border:none;
+    border-radius: 15px;
+    position: relative;
+    left: 4px;
+
+    width: 95%;
+    height: 40%;
+}
