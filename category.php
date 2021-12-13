@@ -93,16 +93,14 @@ header('location:my-wishlist.php');
 	
 <header class="header-style-1">
 
-	<!-- ============================================== TOP MENU ============================================== -->
+	
 <?php include('includes/top-header.php');?>
-<!-- ============================================== TOP MENU : END ============================================== -->
 
-	<!-- ============================================== NAVBAR ============================================== -->
 <?php include('includes/menu-bar.php');?>
-<!-- ============================================== NAVBAR : END ============================================== -->
+
 
 </header>
-<!-- ============================================== HEADER : END ============================================== -->
+
 </div><!-- /.breadcrumb -->
 <div class="body-content outer-top-xs">
 	<div class='container'>
@@ -111,7 +109,7 @@ header('location:my-wishlist.php');
            <div class="sidebar-module-container">
 	            	<h3 class="section-title">shop by</h3>
 	            	<div class="sidebar-filter">
-		            	<!-- ============================================== SIDEBAR CATEGORY ============================================== -->
+		            	
 <div class="sidebar-widget wow fadeInUp outer-bottom-xs ">
 	<div class="widget-header m-t-20">
 		<h4 class="widget-title">Category</h4>
@@ -137,13 +135,13 @@ while($row=mysqli_fetch_array($sql))
 
 
     
-<!-- ============================================== COLOR: END ============================================== -->
+
 
 	            	</div><!-- /.sidebar-filter -->
 	            </div><!-- /.sidebar-module-container -->
             </div><!-- /.sidebar -->
 			<div class='col-md-9'>
-					<!-- ========================================== SECTION – HERO ========================================= -->
+					
 
 	<div id="category" class="category-carousel hidden-xs">
 		<div class="item">	
@@ -279,7 +277,7 @@ while ($row=mysqli_fetch_array($ret))
     <script src="assets/js/wow.min.js"></script>
 	<script src="assets/js/scripts.js"></script>
 
-	<!-- For demo purposes – can be removed on production -->
+	
 	
 	<script src="switchstylesheet/switchstylesheet.js"></script>
 	
@@ -296,7 +294,7 @@ while ($row=mysqli_fetch_array($ret))
 		   $('.show-theme-options').delay(2000).trigger('click');
 		});
 	</script>
-	<!-- For demo purposes – can be removed on production : End -->
+	
 
 	
 
